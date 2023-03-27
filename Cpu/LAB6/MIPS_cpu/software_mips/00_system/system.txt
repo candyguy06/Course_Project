@@ -1,0 +1,23 @@
+
+system.image:     file format elf32-tradbigmips
+
+Disassembly of section .text:
+
+00000000 <_ftext>:
+   0:	3c1d8000 	lui	sp,0x8000
+   4:	3c1a0000 	lui	k0,0x0
+   8:	375a8000 	ori	k0,k0,0x8000
+   c:	0340f809 	jalr	k0
+  10:	00000000 	nop
+
+00000014 <exit>:
+	...
+  28:	3c08f000 	lui	t0,0xf000
+  2c:	01000008 	jr	t0
+  30:	00000000 	nop
+Disassembly of section .reginfo:
+
+00000038 <.reginfo>:
+  38:	a4000100 	sh	zero,256(zero)
+	...
+  4c:	00008030 	tge	zero,zero,0x200

@@ -1,0 +1,1147 @@
+m255
+K3
+z0
+13
+cModel Technology
+Z0 dD:\IRQ_mips\MIPS_cpu_test
+v_mem_ctrl
+Z1 I;VfgY7>2Pi50n9NS?C7dF2
+Z2 VOLRQWXME>BM[CiLh:Ra9R0
+Z3 dD:\caslab\COexp\MIPS_cpu_test
+Z4 w1366618028
+Z5 8D:/caslab/COexp/MIPS_cpu_test/mem_ctrl.v
+Z6 FD:/caslab/COexp/MIPS_cpu_test/mem_ctrl.v
+L0 1
+Z7 OV;L;10.0d;49
+r1
+31
+Z8 !s90 -reportprogress|300|-work|work|-nocovercells|D:/caslab/COexp/MIPS_cpu_test/mem_ctrl.v|
+Z9 !s102 -nocovercells
+Z10 o-work work -nocovercells -O0
+Z11 n@_mem_ctrl
+Z12 !s107 D:/caslab/COexp/MIPS_cpu_test/mem_ctrl.v|
+Z13 !s100 HYDo:74c`9Hh`K]QA[LdN3
+Z14 !s108 1366619150.534000
+!s85 0
+!s101 -O0
+T_opt
+Z15 Vc`C^`=aG;c1YAYQe]<K0d2
+Z16 04 9 4 work testbench fast 0
+Z17 =1-00261890c79d-51dccc10-30376-c6b
+Z18 o-quiet -auto_acc_if_foreign -work work
+Z19 n@_opt
+Z20 OL;O;10.1b;51
+Z21 dD:\IRQ_mips\MIPS_cpu_test
+T_opt1
+Z22 V<c8Am@TBjfZo4kWj82F@31
+R16
+Z23 =1-5404a68a2d22-51e8ca44-7ed07-13af
+R18
+Z24 n@_opt1
+Z25 OE;O;10.1a;51
+R21
+vboot_state
+Z26 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+31
+Z27 Ib>Q^?I@Udoe]ge?0LeoE_3
+Z28 dC:\Users\blahuang\Documents\dcache\way_set
+Z29 w1375169852
+Z30 8C:/Users/blahuang/Documents/dcache/way_set/boot_state.v
+Z31 FC:/Users/blahuang/Documents/dcache/way_set/boot_state.v
+L0 21
+Z32 OL;L;10.2;57
+Z33 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z34 !s100 oidY]bS;1i]:YcIj_883d1
+Z35 !s108 1394438303.655000
+Z36 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/boot_state.v|
+Z37 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/boot_state.v|
+!s85 0
+!i10b 1
+vbranch_unit
+R26
+r1
+31
+Z38 IY5:b3P5hL?XPol7zLVlj:2
+R28
+Z39 w1375169849
+Z40 8C:/Users/blahuang/Documents/dcache/way_set/branch_unit.v
+Z41 FC:/Users/blahuang/Documents/dcache/way_set/branch_unit.v
+L0 22
+R32
+R33
+Z42 !s100 M9ld1Wo49Pz<PlXHRldh;2
+Z43 !s108 1394438303.758000
+Z44 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/branch_unit.v|
+Z45 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/branch_unit.v|
+!s85 0
+!i10b 1
+vcache
+Z46 VBRi3XzHkgD60jJ@hD_5al3
+r1
+31
+Z47 ILU@eE4Nj4X5AmFJ9m>gTM0
+Z48 d/home/blahuang/Desktop/COexp/MIPS_cpu_test
+Z49 w1374740550
+Z50 8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cache.v
+Z51 F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cache.v
+L0 1
+Z52 OE;L;10.1a;51
+R33
+Z53 !s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cache.v|
+Z54 !s100 lY6z__?2ja_a<2k=L5kde3
+Z55 !s108 1374740666.853173
+Z56 !s107 /home/blahuang/Desktop/COexp/MIPS_cpu_test/cache.v|
+!i10b 1
+!s85 0
+vcacheDecide
+Z57 !s100 UK0eb5ceV5az>M4=PgoY@2
+Z58 I6BhkNfc;z1CN89`B?N__41
+R26
+Z59 dC:\Users\blahuang\Documents\dcache\lab2
+Z60 w1391568661
+Z61 8C:/Users/blahuang/Documents/dcache/lab2/cacheDecide.v
+Z62 FC:/Users/blahuang/Documents/dcache/lab2/cacheDecide.v
+L0 3
+R32
+r1
+31
+Z63 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/lab2/cacheDecide.v|
+R33
+Z64 ncache@decide
+Z65 !s110 1394440983
+Z66 !s108 1394440983.162000
+Z67 !s107 C:/Users/blahuang/Documents/dcache/lab2/cacheDecide.v|
+!i10b 1
+!s85 0
+vchange_signal
+R65
+Z68 !s100 dbg4B`Mfh7_[<KHn4RJaY0
+Z69 I^2FgXMAA201IG5E;TI@dA3
+R26
+R59
+Z70 w1375169854
+Z71 8C:/Users/blahuang/Documents/dcache/lab2/change_signal.v
+Z72 FC:/Users/blahuang/Documents/dcache/lab2/change_signal.v
+L0 3
+R32
+r1
+31
+Z73 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/lab2/change_signal.v|
+R33
+Z74 !s108 1394440983.241000
+Z75 !s107 C:/Users/blahuang/Documents/dcache/lab2/change_signal.v|
+!i10b 1
+!s85 0
+vclkrst
+Z76 IV3bMV5k1FGiZ3J9f74Mi;3
+R26
+R28
+Z77 w1375169846
+Z78 8C:/Users/blahuang/Documents/dcache/way_set/clkrst.v
+Z79 FC:/Users/blahuang/Documents/dcache/way_set/clkrst.v
+L0 4
+R32
+r1
+31
+R33
+Z80 !s110 1394438304
+Z81 !s100 X1ijWT4=2W<:8E9oKHU^T0
+Z82 !s108 1394438304.021000
+Z83 !s107 C:/Users/blahuang/Documents/dcache/way_set/clkrst.v|
+Z84 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/clkrst.v|
+!i10b 1
+!s85 0
+vcontrol_unit
+R26
+r1
+31
+Z85 IV47lEQh<2=Mb>eZQh^hae2
+R28
+Z86 w1375169865
+Z87 8C:/Users/blahuang/Documents/dcache/way_set/control_unit.v
+Z88 FC:/Users/blahuang/Documents/dcache/way_set/control_unit.v
+L0 21
+R32
+R33
+Z89 !s100 k`db?kQzZIz<CzE>=A_JB1
+Z90 !s108 1394438304.103000
+Z91 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/control_unit.v|
+Z92 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/control_unit.v|
+!s85 0
+!i10b 1
+vcount
+R65
+Z93 !s100 GA`NEBMU`kV0I:lRE`l211
+Z94 IL<SnK]7;QdSUi;SgCkAaU2
+R26
+R59
+Z95 w1375169868
+Z96 8C:/Users/blahuang/Documents/dcache/lab2/count.v
+Z97 FC:/Users/blahuang/Documents/dcache/lab2/count.v
+L0 3
+R32
+r1
+31
+Z98 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/lab2/count.v|
+R33
+Z99 !s108 1394440983.318000
+Z100 !s107 C:/Users/blahuang/Documents/dcache/lab2/count.v|
+!i10b 1
+!s85 0
+vcpu_core
+R26
+r1
+31
+Z101 IMXDK@VP9oc6UbhP=WhoV;3
+R28
+Z102 w1375169871
+Z103 8C:/Users/blahuang/Documents/dcache/way_set/cpu_core.v
+Z104 FC:/Users/blahuang/Documents/dcache/way_set/cpu_core.v
+L0 22
+R32
+R33
+Z105 !s100 ;lfPjB`EhSK2kWWYm6oSo2
+Z106 !s108 1394438304.285000
+Z107 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_core.v|
+Z108 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_core.v|
+!s85 0
+!i10b 1
+vcpu_decode5to32
+R26
+r1
+31
+Z109 IVZnicHCGA6:aTT7BP4__b2
+R28
+R70
+Z110 8C:/Users/blahuang/Documents/dcache/way_set/cpu_decode5to32.v
+Z111 FC:/Users/blahuang/Documents/dcache/way_set/cpu_decode5to32.v
+L0 21
+R32
+R33
+Z112 !s100 YzU84X5O`BO?<kLaEi[m^3
+Z113 !s108 1394438304.390000
+Z114 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_decode5to32.v|
+Z115 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_decode5to32.v|
+!s85 0
+!i10b 1
+vcpu_ex
+R26
+r1
+31
+Z116 I_`8^:E;JVl]8>Pbfa2F3U2
+R28
+Z117 w1375169856
+Z118 8C:/Users/blahuang/Documents/dcache/way_set/cpu_ex.v
+Z119 FC:/Users/blahuang/Documents/dcache/way_set/cpu_ex.v
+L0 21
+R32
+R33
+Z120 !s100 80Q^F>8ZohRM7e7cJXQ`91
+Z121 !s108 1394438304.495000
+Z122 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_ex.v|
+Z123 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_ex.v|
+!s85 0
+!i10b 1
+vcpu_id
+R26
+r1
+31
+Z124 I7?bkPDozPd@NjTlVN;AHc0
+R28
+Z125 w1375169875
+Z126 8C:/Users/blahuang/Documents/dcache/way_set/cpu_id.v
+Z127 FC:/Users/blahuang/Documents/dcache/way_set/cpu_id.v
+L0 21
+R32
+R33
+Z128 !s100 nPRnjHi>PXi`=8fg^YmiB2
+Z129 !s108 1394438304.636000
+Z130 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_id.v|
+Z131 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_id.v|
+!s85 0
+!i10b 1
+vcpu_if
+R26
+r1
+31
+Z132 Iaj<<gKAPLQ>m6B1_aSzTW1
+R28
+Z133 w1375169873
+Z134 8C:/Users/blahuang/Documents/dcache/way_set/cpu_if.v
+Z135 FC:/Users/blahuang/Documents/dcache/way_set/cpu_if.v
+L0 21
+R32
+R33
+Z136 !s100 GGS5PK?IJR4:oT<MEzDa[0
+Z137 !s108 1394438304.770000
+Z138 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_if.v|
+Z139 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_if.v|
+!s85 0
+!i10b 1
+vcpu_mem
+R26
+r1
+31
+Z140 I8;dTnJT?o:?4:aQS7BA^W3
+R28
+Z141 w1375169859
+Z142 8C:/Users/blahuang/Documents/dcache/way_set/cpu_mem.v
+Z143 FC:/Users/blahuang/Documents/dcache/way_set/cpu_mem.v
+L0 21
+R32
+R33
+Z144 !s100 ?YmeQ;NAQ4>@TAbJ=PiFo2
+Z145 !s108 1394438304.919000
+Z146 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_mem.v|
+Z147 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_mem.v|
+!s85 0
+!i10b 1
+vcpu_reg1_ne
+R26
+r1
+31
+Z148 I]2>YkKYQPg`:5LaKcTE7c3
+R28
+Z149 w1375169863
+Z150 8C:/Users/blahuang/Documents/dcache/way_set/cpu_reg1_ne.v
+Z151 FC:/Users/blahuang/Documents/dcache/way_set/cpu_reg1_ne.v
+L0 21
+R32
+R33
+Z152 !s100 1Um9hi?;^J@cNco72VCL;0
+Z153 !s108 1394438305.097000
+Z154 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg1_ne.v|
+Z155 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg1_ne.v|
+!s85 0
+!i10b 1
+vcpu_reg2_ne
+R26
+r1
+31
+Z156 I15<1cWF[S8@V3JW7V@8l83
+R28
+Z157 w1375169869
+Z158 8C:/Users/blahuang/Documents/dcache/way_set/cpu_reg2_ne.v
+Z159 FC:/Users/blahuang/Documents/dcache/way_set/cpu_reg2_ne.v
+L0 21
+R32
+R33
+Z160 !s100 U0QnN>WQYKbS<;z@>DYA^1
+Z161 !s108 1394438305.198000
+Z162 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg2_ne.v|
+Z163 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg2_ne.v|
+!s85 0
+!i10b 1
+vcpu_reg32_ne
+R26
+r1
+31
+Z164 IgSFK7V_?nag<IbzaMjlm@1
+R28
+Z165 w1383621349
+Z166 8C:/Users/blahuang/Documents/dcache/way_set/cpu_reg32_ne.v
+Z167 FC:/Users/blahuang/Documents/dcache/way_set/cpu_reg32_ne.v
+L0 21
+R32
+R33
+Z168 !s100 XH>E`OHE`[ofAJ361ZjW;0
+Z169 !s108 1394438306.464000
+Z170 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg32_ne.v|
+Z171 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg32_ne.v|
+!s85 0
+!i10b 1
+vcpu_reg32_ne_ex
+R26
+r1
+31
+Z172 I;@:YjUY]9O96M7aCC^hcb0
+R28
+Z173 w1383621340
+Z174 8C:/Users/blahuang/Documents/dcache/way_set/cpu_reg32_ne_ex.v
+Z175 FC:/Users/blahuang/Documents/dcache/way_set/cpu_reg32_ne_ex.v
+L0 6
+R32
+R33
+Z176 !s100 mGDljE^BQnCOW8W^`dK=e2
+Z177 !s108 1394438306.620000
+Z178 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg32_ne_ex.v|
+Z179 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg32_ne_ex.v|
+!s85 0
+!i10b 1
+vcpu_reg3_ne
+R26
+r1
+31
+Z180 IGM0lkZkRK^1?;lC_VjP8n3
+R28
+Z181 w1375169858
+Z182 8C:/Users/blahuang/Documents/dcache/way_set/cpu_reg3_ne.v
+Z183 FC:/Users/blahuang/Documents/dcache/way_set/cpu_reg3_ne.v
+L0 21
+R32
+R33
+Z184 !s100 9W52a@D_0]OQeK1MH[TTL3
+Z185 !s108 1394438305.355000
+Z186 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg3_ne.v|
+Z187 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg3_ne.v|
+!s85 0
+!i10b 1
+vcpu_reg4_ne
+R26
+r1
+31
+Z188 IXzFFcME>?_Dm8DDY0n9Y^0
+R28
+R29
+Z189 8C:/Users/blahuang/Documents/dcache/way_set/cpu_reg4_ne.v
+Z190 FC:/Users/blahuang/Documents/dcache/way_set/cpu_reg4_ne.v
+L0 21
+R32
+R33
+Z191 !s100 ACV6Q859aC1TW00L42B^^0
+Z192 !s108 1394438305.503000
+Z193 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg4_ne.v|
+Z194 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg4_ne.v|
+!s85 0
+!i10b 1
+vcpu_reg5_ne
+R26
+r1
+31
+Z195 IWDG6REHCYb`G[30nY3J6_1
+R28
+Z196 w1375169861
+Z197 8C:/Users/blahuang/Documents/dcache/way_set/cpu_reg5_ne.v
+Z198 FC:/Users/blahuang/Documents/dcache/way_set/cpu_reg5_ne.v
+L0 21
+R32
+R33
+Z199 !s100 I?gXTb]h5i@g5j`zKX?9U1
+Z200 !s108 1394438305.667000
+Z201 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg5_ne.v|
+Z202 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg5_ne.v|
+!s85 0
+!i10b 1
+vcpu_reg8_ne
+R26
+r1
+31
+Z203 IhY5e]IdISh`:8J[mi??j22
+R28
+R70
+Z204 8C:/Users/blahuang/Documents/dcache/way_set/cpu_reg8_ne.v
+Z205 FC:/Users/blahuang/Documents/dcache/way_set/cpu_reg8_ne.v
+L0 21
+R32
+R33
+Z206 !s100 UOhA0Ea5?]@:J:e;n?@<Q0
+Z207 !s108 1394438305.921000
+Z208 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg8_ne.v|
+Z209 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg8_ne.v|
+!s85 0
+!i10b 1
+vcpu_reg8x4_ne
+R26
+r1
+31
+Z210 IKBiQdZzdV4_`G=2@1ST_C0
+R28
+R117
+Z211 8C:/Users/blahuang/Documents/dcache/way_set/cpu_reg8x4_ne.v
+Z212 FC:/Users/blahuang/Documents/dcache/way_set/cpu_reg8x4_ne.v
+L0 21
+R32
+R33
+Z213 !s100 _7n]g5R6cbP?54a<@Q=Q<0
+Z214 !s108 1394438306.013000
+Z215 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg8x4_ne.v|
+Z216 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg8x4_ne.v|
+!s85 0
+!i10b 1
+vcpu_reg8x4_ne_cp
+R26
+r1
+31
+Z217 Iom>7dam]:IXOG_IioMYhT3
+R28
+R86
+Z218 8C:/Users/blahuang/Documents/dcache/way_set/cpu_reg8x4_ne_cp.v
+Z219 FC:/Users/blahuang/Documents/dcache/way_set/cpu_reg8x4_ne_cp.v
+L0 21
+R32
+R33
+Z220 !s100 R_`hUQdFWJ>3>Sb>HBd2I0
+Z221 !s108 1394438306.260000
+Z222 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg8x4_ne_cp.v|
+Z223 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_reg8x4_ne_cp.v|
+!s85 0
+!i10b 1
+vcpu_regbank
+R26
+r1
+31
+Z224 Ifalz0:P[dzY4OoaK90ndF1
+R28
+R149
+Z225 8C:/Users/blahuang/Documents/dcache/way_set/cpu_regbank.v
+Z226 FC:/Users/blahuang/Documents/dcache/way_set/cpu_regbank.v
+L0 21
+R32
+R33
+Z227 !s100 NdIWcdKOYPe1WSK2_l]f]1
+Z228 !s108 1394438306.812000
+Z229 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_regbank.v|
+Z230 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_regbank.v|
+!s85 0
+!i10b 1
+vcpu_top
+Z231 !s110 1394440984
+!i10b 1
+Z232 !s100 Y7W0_EgAjD<CNGeFK;Y6I1
+I>Y@?9TAO^NKg@S7LQh^G[2
+R26
+R59
+Z233 w1394440484
+Z234 Fcpu_top.v
+Z235 8C:/Users/blahuang/Documents/dcache/lab2/testbench.v
+Z236 FC:/Users/blahuang/Documents/dcache/lab2/testbench.v
+L0 24
+R32
+r1
+!s85 0
+31
+Z237 !s108 1394440984.133000
+Z238 !s107 dcache_system.v|cpu_top.v|memory.v|timescale.v|C:/Users/blahuang/Documents/dcache/lab2/testbench.v|
+Z239 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/lab2/testbench.v|
+R33
+vcpu_wb
+R26
+r1
+31
+Z240 I`@[0`5ibIh^A=ezz1SLch1
+R28
+R86
+Z241 8C:/Users/blahuang/Documents/dcache/way_set/cpu_wb.v
+Z242 FC:/Users/blahuang/Documents/dcache/way_set/cpu_wb.v
+L0 22
+R32
+R33
+Z243 !s100 Z88CoF7P?BIOoj]EX>c2O3
+Z244 !s108 1394438307.100000
+Z245 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_wb.v|
+Z246 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_wb.v|
+!s85 0
+!i10b 1
+vcpu_wb_alignment
+R26
+r1
+31
+Z247 IREM2m0P5^kYXTL[HR^7K^2
+R28
+R102
+Z248 8C:/Users/blahuang/Documents/dcache/way_set/cpu_wb_alignment.v
+Z249 FC:/Users/blahuang/Documents/dcache/way_set/cpu_wb_alignment.v
+L0 22
+R32
+R33
+Z250 !s100 AGB=bdk47hVXC5kHjZ:1>3
+Z251 !s108 1394438307.238000
+Z252 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/cpu_wb_alignment.v|
+Z253 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/cpu_wb_alignment.v|
+!s85 0
+!i10b 1
+vctrl
+Z254 I_XE^9Xiebz<MYQ]UGRV7g3
+Z255 VohNEzb?UEZH1>LYLZiBDZ2
+R3
+Z256 w1366550986
+R5
+R6
+L0 1
+R7
+r1
+31
+R8
+R9
+R10
+R12
+Z257 !s100 Lm098IEdc4U>gI5cMUJJ03
+Z258 !s108 1366617794.397000
+!s85 0
+!s101 -O0
+vdcache
+R65
+Z259 !s100 U6e>HQGC^dFo61<]md0dh0
+Z260 IDe2o6o<8AoIOHgP3?]0el1
+R26
+R59
+Z261 w1391570137
+Z262 8C:/Users/blahuang/Documents/dcache/lab2/dcache.v
+Z263 FC:/Users/blahuang/Documents/dcache/lab2/dcache.v
+L0 1
+R32
+r1
+31
+Z264 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/lab2/dcache.v|
+R33
+Z265 !s108 1394440983.492000
+Z266 !s107 C:/Users/blahuang/Documents/dcache/lab2/dcache.v|
+!i10b 1
+!s85 0
+vdcache_ctrl
+R65
+Z267 !s100 7f[:PT;]EP]OW[^hP5bdG3
+Z268 IHLnKdVNT7GN6^DHPA7gb<1
+R26
+R59
+Z269 w1394348475
+Z270 8C:/Users/blahuang/Documents/dcache/lab2/dcache_ctrl.v
+Z271 FC:/Users/blahuang/Documents/dcache/lab2/dcache_ctrl.v
+L0 1
+R32
+r1
+31
+Z272 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/lab2/dcache_ctrl.v|
+R33
+Z273 !s108 1394440983.569000
+Z274 !s107 C:/Users/blahuang/Documents/dcache/lab2/dcache_ctrl.v|
+!i10b 1
+!s85 0
+vdcache_system
+R231
+!i10b 1
+Z275 !s100 Wz=7W>lOeL750zNEXoPem1
+IFP]<8S6[[4`d;?0fCUAz?0
+R26
+R59
+Z276 w1394440973
+Fdcache_system.v
+R234
+R235
+R236
+L0 3
+R32
+r1
+!s85 0
+31
+R237
+R238
+R239
+R33
+vdff
+Z277 !s110 1394438308
+Z278 InKc@hV5A^i=f[dPWfz9<d0
+R26
+R28
+Z279 w1375169870
+Z280 8C:/Users/blahuang/Documents/dcache/way_set/dff.v
+Z281 FC:/Users/blahuang/Documents/dcache/way_set/dff.v
+L0 3
+R32
+r1
+31
+R33
+Z282 !s100 =Pgz3_?:<<em_NeAC2dGc2
+Z283 !s108 1394438308.240000
+Z284 !s107 C:/Users/blahuang/Documents/dcache/way_set/dff.v|
+Z285 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/dff.v|
+!i10b 1
+!s85 0
+vdff_en
+R277
+Z286 I^:^mZ_6M;Y_BOE2:C8A]k3
+R26
+R28
+R125
+Z287 8C:/Users/blahuang/Documents/dcache/way_set/dff_en.v
+Z288 FC:/Users/blahuang/Documents/dcache/way_set/dff_en.v
+L0 3
+R32
+r1
+31
+R33
+Z289 !s100 GE=Im2hjPzE3<@A_Maj`A1
+Z290 !s108 1394438308.372000
+Z291 !s107 C:/Users/blahuang/Documents/dcache/way_set/dff_en.v|
+Z292 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/dff_en.v|
+!i10b 1
+!s85 0
+vforward_unit
+R26
+r1
+31
+Z293 I?U8jLlO]7[<P`_enoY=GP1
+R28
+R39
+Z294 8C:/Users/blahuang/Documents/dcache/way_set/forward_unit.v
+Z295 FC:/Users/blahuang/Documents/dcache/way_set/forward_unit.v
+L0 22
+R32
+R33
+Z296 !s100 X9@;@kAJb:k^>DIDika:c2
+Z297 !s108 1394438308.490000
+Z298 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/forward_unit.v|
+Z299 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/forward_unit.v|
+!s85 0
+!i10b 1
+vfu_alu
+R26
+r1
+31
+Z300 IGg7UU;CmkLN<BZK1G8O4L0
+R28
+R102
+Z301 8C:/Users/blahuang/Documents/dcache/way_set/fu_alu.v
+Z302 FC:/Users/blahuang/Documents/dcache/way_set/fu_alu.v
+L0 21
+R32
+R33
+Z303 !s100 OI77G9>gVXIkF15OW7Y2J1
+Z304 !s108 1394438308.682000
+Z305 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/fu_alu.v|
+Z306 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/fu_alu.v|
+!s85 0
+!i10b 1
+vfu_cla4
+R26
+r1
+31
+Z307 I>a^THCEhg5zdCP9z=5ak82
+R28
+R133
+Z308 8C:/Users/blahuang/Documents/dcache/way_set/fu_cla4.v
+Z309 FC:/Users/blahuang/Documents/dcache/way_set/fu_cla4.v
+L0 23
+R32
+R33
+Z310 !s100 X:Q>l@gDi4Jk7FZ`F0M9V3
+Z311 !s108 1394438308.814000
+Z312 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/fu_cla4.v|
+Z313 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/fu_cla4.v|
+!s85 0
+!i10b 1
+vfu_cla4v
+R26
+r1
+31
+Z314 I=Y4i^?cPEUWZQ;=;?NIZ>0
+R28
+Z315 w1375169848
+Z316 8C:/Users/blahuang/Documents/dcache/way_set/fu_cla4v.v
+Z317 FC:/Users/blahuang/Documents/dcache/way_set/fu_cla4v.v
+L0 24
+R32
+R33
+Z318 !s100 G6`QmBVc2nMRIbQ7A@?KF0
+Z319 !s108 1394438308.946000
+Z320 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/fu_cla4v.v|
+Z321 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/fu_cla4v.v|
+!s85 0
+!i10b 1
+vfu_csa16
+R26
+r1
+31
+Z322 IZB]ID@7fbei>QfYQBSL;j0
+R28
+Z323 w1375169866
+Z324 8C:/Users/blahuang/Documents/dcache/way_set/fu_csa16.v
+Z325 FC:/Users/blahuang/Documents/dcache/way_set/fu_csa16.v
+L0 23
+R32
+R33
+Z326 !s100 F?I1gnL9=UJMDR;4BiM9a0
+Z327 !s108 1394438309.585000
+Z328 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/fu_csa16.v|
+Z329 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/fu_csa16.v|
+!s85 0
+!i10b 1
+vfu_csa16v
+R26
+r1
+31
+Z330 I3Y?[F>Y22@4XTac@:>@]`1
+R28
+Z331 w1375169864
+Z332 8C:/Users/blahuang/Documents/dcache/way_set/fu_csa16v.v
+Z333 FC:/Users/blahuang/Documents/dcache/way_set/fu_csa16v.v
+L0 24
+R32
+R33
+Z334 !s100 b4IkmYESP=gng=CQcCTER0
+Z335 !s108 1394438309.724000
+Z336 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/fu_csa16v.v|
+Z337 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/fu_csa16v.v|
+!s85 0
+!i10b 1
+vfu_csa32
+R26
+r1
+31
+Z338 IBkV72_9i5;6Y^==>h8=hK3
+R28
+R149
+Z339 8C:/Users/blahuang/Documents/dcache/way_set/fu_csa32.v
+Z340 FC:/Users/blahuang/Documents/dcache/way_set/fu_csa32.v
+L0 23
+R32
+R33
+Z341 !s100 [Wa[B1bfP3WPIA2U1kCP41
+Z342 !s108 1394438309.850000
+Z343 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/fu_csa32.v|
+Z344 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/fu_csa32.v|
+!s85 0
+!i10b 1
+vfu_csa34
+R26
+r1
+31
+Z345 IE_D^[KimP4h5HDh>02OUZ0
+R28
+R149
+Z346 8C:/Users/blahuang/Documents/dcache/way_set/fu_csa34.v
+Z347 FC:/Users/blahuang/Documents/dcache/way_set/fu_csa34.v
+L0 23
+R32
+R33
+Z348 !s100 6=k^=LTFo[b6?QInDhLG:0
+Z349 !s108 1394438310.006000
+Z350 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/fu_csa34.v|
+Z351 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/fu_csa34.v|
+!s85 0
+!i10b 1
+vfu_csa8
+R26
+r1
+31
+Z352 I>RoKcKcbF[>@K=o8TGMSZ3
+R28
+R157
+Z353 8C:/Users/blahuang/Documents/dcache/way_set/fu_csa8.v
+Z354 FC:/Users/blahuang/Documents/dcache/way_set/fu_csa8.v
+L0 23
+R32
+R33
+Z355 !s100 0dYJTzmSZk?n7Pd@;Y7E@2
+Z356 !s108 1394438309.157000
+Z357 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/fu_csa8.v|
+Z358 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/fu_csa8.v|
+!s85 0
+!i10b 1
+vfu_csa8v
+R26
+r1
+31
+Z359 ICIGWYBjK66d8h]ljIL1em0
+R28
+R331
+Z360 8C:/Users/blahuang/Documents/dcache/way_set/fu_csa8v.v
+Z361 FC:/Users/blahuang/Documents/dcache/way_set/fu_csa8v.v
+L0 24
+R32
+R33
+Z362 !s100 GBL4:?mX[J_zBg?Q=PKcb3
+Z363 !s108 1394438309.245000
+Z364 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/fu_csa8v.v|
+Z365 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/fu_csa8v.v|
+!s85 0
+!i10b 1
+vfu_shifter
+R26
+r1
+31
+Z366 I0bP3N7HGiFz>zV^9geJOd2
+R28
+R102
+Z367 8C:/Users/blahuang/Documents/dcache/way_set/fu_shifter.v
+Z368 FC:/Users/blahuang/Documents/dcache/way_set/fu_shifter.v
+L0 23
+R32
+R33
+Z369 !s100 B8l:2V3B1KGBX_UAJkL3V0
+Z370 !s108 1394438310.177000
+Z371 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/fu_shifter.v|
+Z372 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/fu_shifter.v|
+!s85 0
+!i10b 1
+vfu_shifter_mask
+R26
+r1
+31
+Z373 IAXTWIaAzTk]]geaNQQF9h1
+R28
+Z374 w1375169855
+Z375 8C:/Users/blahuang/Documents/dcache/way_set/fu_shifter_mask.v
+Z376 FC:/Users/blahuang/Documents/dcache/way_set/fu_shifter_mask.v
+L0 21
+R32
+R33
+Z377 !s100 ?ZD1l?TF9R;60PC`M8IXf1
+Z378 !s108 1394438310.335000
+Z379 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/fu_shifter_mask.v|
+Z380 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/fu_shifter_mask.v|
+!s85 0
+!i10b 1
+vhazard_det_unit
+R26
+r1
+31
+Z381 IHPaE]aX;82:Ca_BjAHWMe2
+R28
+R95
+Z382 8C:/Users/blahuang/Documents/dcache/way_set/hazard_det_unit.v
+Z383 FC:/Users/blahuang/Documents/dcache/way_set/hazard_det_unit.v
+L0 21
+R32
+R33
+Z384 !s100 F4nNQIB9PcEYbUX?Nf1KW2
+Z385 !s108 1394438310.540000
+Z386 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/hazard_det_unit.v|
+Z387 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/hazard_det_unit.v|
+!s85 0
+!i10b 1
+vhitrate
+R65
+Z388 !s100 JbAYlOUAaXHK7RVT33KH:0
+Z389 I0PWWJCH927jVz`S1<VP=L1
+R26
+R59
+Z390 w1386068486
+Z391 8C:/Users/blahuang/Documents/dcache/lab2/hitrate.v
+Z392 FC:/Users/blahuang/Documents/dcache/lab2/hitrate.v
+L0 2
+R32
+r1
+31
+Z393 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/lab2/hitrate.v|
+R33
+Z394 !s108 1394440983.728000
+Z395 !s107 C:/Users/blahuang/Documents/dcache/lab2/hitrate.v|
+!i10b 1
+!s85 0
+vI_Cache
+R26
+r1
+31
+Z396 I<eMGEGgVa=D2GE1HUUh402
+R28
+Z397 w1383622181
+Z398 FI_Cache.v
+R234
+Z399 8C:/Users/blahuang/Documents/dcache/way_set/testbench.v
+Z400 FC:/Users/blahuang/Documents/dcache/way_set/testbench.v
+L0 13
+R32
+R33
+Z401 n@i_@cache
+Z402 !s100 OKRk7gLHE8P>zok9Lo59l3
+Z403 !s108 1394438312.175000
+Z404 !s107 dcache_system.v|I_Cache.v|cpu_top.v|memory.v|timescale.v|C:/Users/blahuang/Documents/dcache/way_set/testbench.v|
+Z405 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/testbench.v|
+!s85 0
+!i10b 1
+vinterrupt_controller
+R26
+r1
+31
+Z406 ITPe6hz99T?WQcY>C=gFml1
+R28
+Z407 w1375169867
+Z408 8C:/Users/blahuang/Documents/dcache/way_set/interrupt_controller.v
+Z409 FC:/Users/blahuang/Documents/dcache/way_set/interrupt_controller.v
+L0 5
+R32
+R33
+Z410 !s100 ohA?_blOI0mOZKg]NEWQ[1
+Z411 !s108 1394438311.210000
+Z412 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/interrupt_controller.v|
+Z413 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/interrupt_controller.v|
+!s85 0
+!i10b 1
+vlatency
+R65
+Z414 !s100 6NEKPM25TemjAB[P^Y<eK0
+Z415 I;ShcgK6F[XhD6P;39mag_3
+R26
+R59
+Z416 w1386944458
+Z417 8C:/Users/blahuang/Documents/dcache/lab2/latency.v
+Z418 FC:/Users/blahuang/Documents/dcache/lab2/latency.v
+L0 10
+R32
+r1
+31
+Z419 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/lab2/latency.v|
+R33
+Z420 !s108 1394440983.809000
+Z421 !s107 C:/Users/blahuang/Documents/dcache/lab2/latency.v|
+!i10b 1
+!s85 0
+vmem_ctrl
+Z422 VGFJKKjQ1ZBP8bj8;eZH8T3
+r1
+31
+Z423 IB4EzG9h@@:cd7C]kff;l62
+R48
+Z424 w1374482431
+Z425 8/home/blahuang/Desktop/COexp/MIPS_cpu_test/mem_ctrl.v
+Z426 F/home/blahuang/Desktop/COexp/MIPS_cpu_test/mem_ctrl.v
+L0 1
+R52
+R33
+Z427 !s100 zYn9>zPh^gIP8eZ?ULZCD0
+Z428 !s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/mem_ctrl.v|
+Z429 !s108 1374740668.161549
+Z430 !s107 /home/blahuang/Desktop/COexp/MIPS_cpu_test/mem_ctrl.v|
+!i10b 1
+!s85 0
+vmemc
+R65
+Z431 !s100 cbZ]J`@PV13ze<kS`anl22
+Z432 Im2JV<d9oglDk_7BP8WICg2
+R26
+R59
+R233
+Z433 8C:/Users/blahuang/Documents/dcache/lab2/memc.v
+Z434 FC:/Users/blahuang/Documents/dcache/lab2/memc.v
+L0 3
+R32
+r1
+31
+Z435 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/lab2/memc.v|
+R33
+Z436 !s108 1394440983.894000
+Z437 !s107 C:/Users/blahuang/Documents/dcache/lab2/memc.v|
+!i10b 1
+!s85 0
+vmemory
+R231
+!i10b 1
+Z438 !s100 9UfKVR@LYcPl9;74l?4S]1
+I13K08fXLa5ZD9]:A]NPJR0
+R26
+R59
+Z439 w1391571256
+Fmemory.v
+R235
+R236
+L0 20
+R32
+r1
+!s85 0
+31
+R237
+R238
+R239
+R33
+vmemv
+Z440 !s100 ?B7a]RQ^XEd]JKYUKACi]0
+Z441 IekXfjbJVJ2f>DZHRRkE2F1
+R26
+R59
+R233
+Z442 8C:/Users/blahuang/Documents/dcache/lab2/memv.v
+Z443 FC:/Users/blahuang/Documents/dcache/lab2/memv.v
+L0 3
+R32
+r1
+31
+Z444 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/lab2/memv.v|
+R33
+R231
+!i10b 1
+!s85 0
+Z445 !s108 1394440984.046000
+Z446 !s107 C:/Users/blahuang/Documents/dcache/lab2/memv.v|
+vmul_decode
+R26
+r1
+31
+Z447 I2N6Bo839nbCL0aEGI>g0M2
+R28
+R157
+Z448 8C:/Users/blahuang/Documents/dcache/way_set/mul_decode.v
+Z449 FC:/Users/blahuang/Documents/dcache/way_set/mul_decode.v
+L0 21
+R32
+R33
+Z450 !s100 B3UgQjQ=TlAg75[2oh1kA3
+Z451 !s108 1394438311.757000
+Z452 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/mul_decode.v|
+Z453 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/mul_decode.v|
+!s85 0
+!i10b 1
+vmul_fsm
+R26
+r1
+31
+Z454 IW?Y^i9dH@EKAog5`zZ1=K1
+R28
+Z455 w1375169860
+Z456 8C:/Users/blahuang/Documents/dcache/way_set/mul_fsm.v
+Z457 FC:/Users/blahuang/Documents/dcache/way_set/mul_fsm.v
+L0 21
+R32
+R33
+Z458 !s100 ST^Dogegfdk150@8lhEli2
+Z459 !s108 1394438311.851000
+Z460 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/mul_fsm.v|
+Z461 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/mul_fsm.v|
+!s85 0
+!i10b 1
+vmul_reg1_ne
+R26
+r1
+31
+Z462 Im7T?BE=C[3WD2eo;a>j1=3
+R28
+R86
+Z463 8C:/Users/blahuang/Documents/dcache/way_set/mul_reg1_ne.v
+Z464 FC:/Users/blahuang/Documents/dcache/way_set/mul_reg1_ne.v
+L0 21
+R32
+R33
+Z465 !s100 I;VTC^h<DT4G<E2bAeYTW1
+Z466 !s108 1394438311.934000
+Z467 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/mul_reg1_ne.v|
+Z468 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/mul_reg1_ne.v|
+!s85 0
+!i10b 1
+vmul_top
+R26
+r1
+31
+Z469 IGe`V97R00czW9cbR0gUzQ0
+R28
+R102
+Z470 8C:/Users/blahuang/Documents/dcache/way_set/mul_top.v
+Z471 FC:/Users/blahuang/Documents/dcache/way_set/mul_top.v
+L0 21
+R32
+R33
+Z472 !s100 3mVbYH1>kTE^M?OkPLBn82
+Z473 !s108 1394438312.016000
+Z474 !s107 timescale.v|C:/Users/blahuang/Documents/dcache/way_set/mul_top.v|
+Z475 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/blahuang/Documents/dcache/way_set/mul_top.v|
+!s85 0
+!i10b 1
+vtestbench
+R231
+!i10b 1
+Z476 !s100 G3a4zo32B8QzO;PMg1@RQ1
+Z477 I4;OmzTX=N[lcnXDEJRm7P1
+R26
+R59
+R439
+R235
+R236
+L0 24
+R32
+r1
+!s85 0
+31
+R237
+R238
+R239
+R33

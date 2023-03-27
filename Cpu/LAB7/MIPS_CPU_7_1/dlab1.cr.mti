@@ -1,0 +1,99 @@
+C:/Users/blahuang/Documents/dcache/lab1/testbench.v {1 {vlog -work work -vopt C:/Users/blahuang/Documents/dcache/lab1/testbench.v
+Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module memory
+-- Compiling module dcache_system
+-- Compiling module cpu_top
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/blahuang/Documents/dcache/lab1/dcache.v {1 {vlog -work work -vopt C:/Users/blahuang/Documents/dcache/lab1/dcache.v
+Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module dcache
+
+Top level modules:
+	dcache
+
+} {} {}} C:/Users/blahuang/Documents/dcache/lab1/latency.v {1 {vlog -work work -vopt C:/Users/blahuang/Documents/dcache/lab1/latency.v
+Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module latency
+
+Top level modules:
+	latency
+
+} {} {}} C:/Users/blahuang/Documents/dcache/lab1/hitrate.v {1 {vlog -work work -vopt C:/Users/blahuang/Documents/dcache/lab1/hitrate.v
+Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module hitrate
+
+Top level modules:
+	hitrate
+
+} {} {}} C:/Users/blahuang/Documents/dcache/lab1/cpu_top.v {1 {vlog -work work -vopt C:/Users/blahuang/Documents/dcache/lab1/cpu_top.v
+Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module dcache_system
+-- Compiling module cpu_top
+
+Top level modules:
+	cpu_top
+
+} {} {}} C:/Users/blahuang/Documents/dcache/lab1/memc.v {1 {vlog -work work -vopt C:/Users/blahuang/Documents/dcache/lab1/memc.v
+Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module memc
+
+Top level modules:
+	memc
+
+} {} {}} C:/Users/blahuang/Documents/dcache/lab1/dcache_system.v {1 {vlog -work work -vopt C:/Users/blahuang/Documents/dcache/lab1/dcache_system.v
+Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module dcache_system
+
+Top level modules:
+	dcache_system
+
+} {} {}} C:/Users/blahuang/Documents/dcache/lab1/dcache_ctrl.v {1 {vlog -work work -vopt C:/Users/blahuang/Documents/dcache/lab1/dcache_ctrl.v
+Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module dcache_ctrl
+
+Top level modules:
+	dcache_ctrl
+
+} {} {}} C:/Users/blahuang/Documents/dcache/lab1/memv.v {1 {vlog -work work -vopt C:/Users/blahuang/Documents/dcache/lab1/memv.v
+Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module memv
+
+Top level modules:
+	memv
+
+} {} {}} C:/Users/blahuang/Documents/dcache/lab1/timescale.v {1 {vlog -work work -vopt C:/Users/blahuang/Documents/dcache/lab1/timescale.v
+Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+
+} {} {}} C:/Users/blahuang/Documents/dcache/lab1/count.v {1 {vlog -work work -vopt C:/Users/blahuang/Documents/dcache/lab1/count.v
+Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module count
+
+Top level modules:
+	count
+
+} {} {}} C:/Users/blahuang/Documents/dcache/lab1/memory.v {1 {vlog -work work -vopt C:/Users/blahuang/Documents/dcache/lab1/memory.v
+Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} C:/Users/blahuang/Documents/dcache/lab1/cacheDecide.v {1 {vlog -work work -vopt C:/Users/blahuang/Documents/dcache/lab1/cacheDecide.v
+Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module cacheDecide
+
+Top level modules:
+	cacheDecide
+
+} {} {}} C:/Users/blahuang/Documents/dcache/lab1/change_signal.v {1 {vlog -work work -vopt C:/Users/blahuang/Documents/dcache/lab1/change_signal.v
+Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module change_signal
+
+Top level modules:
+	change_signal
+
+} {} {}}

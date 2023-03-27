@@ -1,0 +1,193 @@
+
+========================================================================
+
+** ELF Header Information
+
+    File Name: code.axf
+
+    Machine class: ELFCLASS32 (32-bit)
+    Data encoding: ELFDATA2LSB (Little endian)
+    Header version: EV_CURRENT (Current version)
+    Operating System ABI: none
+    ABI Version: 0
+    File Type: ET_EXEC (Executable) (2)
+    Machine: EM_ARM (ARM)
+
+    Image Entry point: 0x00000000
+    Flags: EF_ARM_HASENTRY (0x05000002)
+
+    ABI conformance : AAELF version 2.0 (ARM ELF Revision 5)
+
+    Built with
+    ARM/Thumb C/C++ Compiler, RVCT3.1 [Build 569]
+    ARM/Thumb Macro Assembler, RVCT3.1 [Build 569]
+    ARM Linker, RVCT3.1 [Build 569] 
+
+    Header size: 52 bytes (0x34)
+    Program header entry size: 32 bytes (0x20)
+    Section header entry size: 40 bytes (0x28)
+
+    Program header entries: 1
+    Section header entries: 8
+
+    Program header offset: 1484 (0x000005cc)
+    Section header offset: 1516 (0x000005ec)
+
+    Section header string table index: 7
+
+========================================================================
+
+** Program header #0 (PT_LOAD) [PF_X + PF_R + PF_ARM_ENTRY]
+    Size : 428 bytes
+    Virtual address: 0x00000000
+
+
+========================================================================
+
+** Section #1 'EXEC_ROM_0' (SHT_PROGBITS) [SHF_ALLOC + SHF_EXECINSTR]
+    Size   : 428 bytes (alignment 4)
+    Address: 0x00000000
+
+    $a
+    init
+        0x00000000:    ea000006    ....    B        0x20  ; init + 32
+        0x00000004:    e1a00000    ....    MOV      r0,r0
+        0x00000008:    e1a00000    ....    MOV      r0,r0
+        0x0000000c:    e1a00000    ....    MOV      r0,r0
+        0x00000010:    e1a00000    ....    MOV      r0,r0
+        0x00000014:    e1a00000    ....    MOV      r0,r0
+        0x00000018:    e59ff03c    <...    LDR      pc,[pc,#60]   ; [0x5c] = 0xf0
+        0x0000001c:    e1a00000    ....    MOV      r0,r0
+        0x00000020:    e3a00801    ....    MOV      r0,#0x10000
+        0x00000024:    e1a0d000    ....    MOV      sp,r0
+        0x00000028:    e10f0000    ....    MRS      r0,APSR ; formerly CPSR
+        0x0000002c:    e3c00001    ....    BIC      r0,r0,#1
+        0x00000030:    e129f000    ..).    MSR      CPSR_cf,r0
+        0x00000034:    e3a01802    ....    MOV      r1,#0x20000
+        0x00000038:    e1a0d000    ....    MOV      sp,r0
+        0x0000003c:    e3800001    ....    ORR      r0,r0,#1
+        0x00000040:    e3c000a0    ....    BIC      r0,r0,#0xa0
+        0x00000044:    e129f000    ..).    MSR      CPSR_cf,r0
+        0x00000048:    e1a0e00f    ....    MOV      lr,pc
+        0x0000004c:    e59ff00c    ....    LDR      pc,[pc,#12]   ; [0x60] = 0x64
+        0x00000050:    e3a0c242    B...    MOV      r12,#0x20000004
+        0x00000054:    e3a0d004    ....    MOV      sp,#4
+        0x00000058:    e58cd000    ....    STR      sp,[r12,#0]
+    $d
+        0x0000005c:    000000f0    ....    DCD    240
+        0x00000060:    00000064    d...    DCD    100
+    $a
+    .text
+    main_function
+        0x00000064:    e3a01205    ....    MOV      r1,#0x50000000
+        0x00000068:    e3a02001    . ..    MOV      r2,#1
+        0x0000006c:    e3a00202    ....    MOV      r0,#0x20000000
+        0x00000070:    e5812000    . ..    STR      r2,[r1,#0]
+        0x00000074:    e3a03064    d0..    MOV      r3,#0x64
+        0x00000078:    e5813004    .0..    STR      r3,[r1,#4]
+        0x0000007c:    e3a01451    Q...    MOV      r1,#0x51000000
+        0x00000080:    e5812000    . ..    STR      r2,[r1,#0]
+        0x00000084:    e3a0205a    Z ..    MOV      r2,#0x5a
+        0x00000088:    e5812004    . ..    STR      r2,[r1,#4]
+        0x0000008c:    e3a0100a    ....    MOV      r1,#0xa
+        0x00000090:    e5801000    ....    STR      r1,[r0,#0]
+        0x00000094:    e3a02048    H ..    MOV      r2,#0x48
+        0x00000098:    e5802000    . ..    STR      r2,[r0,#0]
+        0x0000009c:    e3a02065    e ..    MOV      r2,#0x65
+        0x000000a0:    e5802000    . ..    STR      r2,[r0,#0]
+        0x000000a4:    e3a0206c    l ..    MOV      r2,#0x6c
+        0x000000a8:    e5802000    . ..    STR      r2,[r0,#0]
+        0x000000ac:    e5802000    . ..    STR      r2,[r0,#0]
+        0x000000b0:    e3a0206f    o ..    MOV      r2,#0x6f
+        0x000000b4:    e5802000    . ..    STR      r2,[r0,#0]
+        0x000000b8:    e3a02009    . ..    MOV      r2,#9
+        0x000000bc:    e5802000    . ..    STR      r2,[r0,#0]
+        0x000000c0:    e3a02045    E ..    MOV      r2,#0x45
+        0x000000c4:    e5802000    . ..    STR      r2,[r0,#0]
+        0x000000c8:    e3a02041    A ..    MOV      r2,#0x41
+        0x000000cc:    e5802000    . ..    STR      r2,[r0,#0]
+        0x000000d0:    e3a02053    S ..    MOV      r2,#0x53
+        0x000000d4:    e5802000    . ..    STR      r2,[r0,#0]
+        0x000000d8:    e3a02059    Y ..    MOV      r2,#0x59
+        0x000000dc:    e5802000    . ..    STR      r2,[r0,#0]
+        0x000000e0:    e3a02021    ! ..    MOV      r2,#0x21
+        0x000000e4:    e5802000    . ..    STR      r2,[r0,#0]
+        0x000000e8:    e5801000    ....    STR      r1,[r0,#0]
+        0x000000ec:    e1a0f00e    ....    MOV      pc,lr
+    $a
+    .text
+    irq_isr
+        0x000000f0:    e92d501f    .P-.    PUSH     {r0-r4,r12,lr}
+        0x000000f4:    e3a00202    ....    MOV      r0,#0x20000000
+        0x000000f8:    e3a02049    I ..    MOV      r2,#0x49
+        0x000000fc:    e3a01457    W...    MOV      r1,#0x57000000
+        0x00000100:    e5802000    . ..    STR      r2,[r0,#0]
+        0x00000104:    e3a02052    R ..    MOV      r2,#0x52
+        0x00000108:    e5802000    . ..    STR      r2,[r0,#0]
+        0x0000010c:    e3a02051    Q ..    MOV      r2,#0x51
+        0x00000110:    e5802000    . ..    STR      r2,[r0,#0]
+        0x00000114:    e3a0200a    . ..    MOV      r2,#0xa
+        0x00000118:    e5802000    . ..    STR      r2,[r0,#0]
+        0x0000011c:    e5913000    .0..    LDR      r3,[r1,#0]
+        0x00000120:    e3530902    ..S.    CMP      r3,#0x8000
+        0x00000124:    1a000007    ....    BNE      0x148  ; irq_isr + 88
+        0x00000128:    e3a0302a    *0..    MOV      r3,#0x2a
+        0x0000012c:    e5803000    .0..    STR      r3,[r0,#0]
+        0x00000130:    e3a0304c    L0..    MOV      r3,#0x4c
+        0x00000134:    e5803000    .0..    STR      r3,[r0,#0]
+        0x00000138:    e3a03045    E0..    MOV      r3,#0x45
+        0x0000013c:    e5803000    .0..    STR      r3,[r0,#0]
+        0x00000140:    e3a03044    D0..    MOV      r3,#0x44
+        0x00000144:    ea000010    ....    B        0x18c  ; irq_isr + 156
+        0x00000148:    e5914000    .@..    LDR      r4,[r1,#0]
+        0x0000014c:    e3a0c054    T...    MOV      r12,#0x54
+        0x00000150:    e3540901    ..T.    CMP      r4,#0x4000
+        0x00000154:    e3a03065    e0..    MOV      r3,#0x65
+        0x00000158:    e3a0e072    r...    MOV      lr,#0x72
+        0x0000015c:    0580c000    ....    STREQ    r12,[r0,#0]
+        0x00000160:    05803000    .0..    STREQ    r3,[r0,#0]
+        0x00000164:    0580e000    ....    STREQ    lr,[r0,#0]
+        0x00000168:    03a03031    10..    MOVEQ    r3,#0x31
+        0x0000016c:    0a000006    ....    BEQ      0x18c  ; irq_isr + 156
+        0x00000170:    e5914000    .@..    LDR      r4,[r1,#0]
+        0x00000174:    e3540a02    ..T.    CMP      r4,#0x2000
+        0x00000178:    1a000005    ....    BNE      0x194  ; irq_isr + 164
+        0x0000017c:    e580c000    ....    STR      r12,[r0,#0]
+        0x00000180:    e5803000    .0..    STR      r3,[r0,#0]
+        0x00000184:    e580e000    ....    STR      lr,[r0,#0]
+        0x00000188:    e3a03032    20..    MOV      r3,#0x32
+        0x0000018c:    e5803000    .0..    STR      r3,[r0,#0]
+        0x00000190:    e5802000    . ..    STR      r2,[r0,#0]
+        0x00000194:    e5910000    ....    LDR      r0,[r1,#0]
+        0x00000198:    e5810004    ....    STR      r0,[r1,#4]
+        0x0000019c:    e3a00000    ....    MOV      r0,#0
+        0x000001a0:    e5810000    ....    STR      r0,[r1,#0]
+        0x000001a4:    e8bd501f    .P..    POP      {r0-r4,r12,lr}
+        0x000001a8:    e25ef004    ..^.    SUBS     pc,lr,#4
+
+** Section #2 '.debug_frame' (SHT_PROGBITS)
+    Size   : 159 bytes
+
+
+** Section #3 '.symtab' (SHT_SYMTAB)
+    Size   : 240 bytes (alignment 4)
+    String table '.strtab'
+    Last local symbol no. 11
+
+
+** Section #4 '.strtab' (SHT_STRTAB)
+    Size   : 196 bytes
+
+
+** Section #5 '.note' (SHT_NOTE)
+    Size   : 20 bytes (alignment 4)
+
+
+** Section #6 '.comment' (SHT_PROGBITS)
+    Size   : 316 bytes
+
+
+** Section #7 '.shstrtab' (SHT_STRTAB)
+    Size   : 72 bytes
+
+

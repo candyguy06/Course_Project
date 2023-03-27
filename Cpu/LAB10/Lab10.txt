@@ -1,0 +1,9 @@
+這次的lab分成兩個部分，10-1的部分主要是要完成在easy.v裡新增Interrupt I/O，
+讓Interrupt controller可以收到各種Device的中斷且發出IRQ去中斷CPU，
+我們要做的是先到EASY.V裡新增timer1,2的ack和irq，
+然後把timer1,2的model呼叫接好線，再把IRCntl的HIRQSource和HIRQAck與timer1,2的ack和irq配對，
+然後進modelsim執行c code看波形圖，可看到Timer1一發出timer_irt就寫到pending，ACK被拉起來後，
+Timer1的timer_irt降下來，而Timer2的timer_irt會一直拉著等待Timer1的IRQ做完才會換處理它。
+第二個部分是要新增一個switch interrupt並寫一個簡單的interrutp service routine，
+首先一樣到easy.v裡新增SW1_IRQ和LED1_ACK，然後把兩條線接到IRCntl的top bit，再來就跟第一部分一樣跑modelsim看波形，
+TBTic讓SW1_IRQ  input在5us時等於1，commend line 會顯示TUBE:*LED，即代表成功。

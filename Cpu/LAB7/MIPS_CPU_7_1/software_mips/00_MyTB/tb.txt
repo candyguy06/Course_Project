@@ -1,0 +1,485 @@
+#==============================================================================
+# 	Class 2¡GMultiply Instructions
+#==============================================================================
+
+check_mul:
+
+	MOVE	$30, $31	# assign $30 = main code return address
+
+        #----------------------------------------------------------------------
+        # MTHI/MFHI/MTLO/MFLO
+        #----------------------------------------------------------------------
+	LX	$2, ds1		# $2 = 0b10110011_10001111_00001111_10000011
+	LX	$3, ds1+4	# $3 = 0b01001100_01110000_11110000_01111100
+	LX	$4, ds1+8	# $4 = 0b00110011_00001111_00000000_11111111
+	LX	$5, ds1+12	# $5 = 0b11001100_11110000_11111111_00000000
+
+	MTHI	$2
+	MFHI	$8
+	MTHI	$3
+	MFHI	$9
+	MTHI	$4
+	MFHI	$10
+	MTHI	$5
+	MFHI	$11
+
+	MTLO	$2
+	MFLO	$12
+	MTLO	$3
+	MFLO	$13
+	MTLO	$4
+	MFLO	$14
+	MTLO	$5
+	MFLO	$15
+
+        SW	$8,  0($29)
+	SW	$9,  4($29)
+	SW	$10, 8($29)
+	SW	$11, 12($29)
+
+	SW	$12, 16($29)
+	SW	$13, 20($29)
+	SW	$14, 24($29)
+	SW	$15, 28($29)
+	
+        LA	$4, result_mfmt
+        LA	$5, comp_pool
+        ADDI	$6, $0, 32
+        JAL	comp
+        NOP	# Jump/Branch Slot
+
+
+        LW	$24, 20($28)
+        ORI	$24, $24, 0x000F
+        SW	$24, 20($28)
+        LA	$29, comp_pool
+
+        #----------------------------------------------------------------------
+        # MUL (ID:0x0010)
+        #----------------------------------------------------------------------
+
+	LX	$4, ds_mul+8	# $4 = 0x00000001 , Sign (+)min value (except zero)
+	LX	$5, ds_mul+12	# $5 = 0x7FFFFFFF , Sign (+)max value (except zero)
+	LX	$6, ds_mul+16	# $6 = 0x80000000 , Sign (-)min value (except zero)
+	LX	$7, ds_mul+20	# $7 = 0xFFFFFFFF , Sign (-)max value (except zero)
+
+	# Testing for Zero Vaule
+
+	MUL	$8, $4, $4	# (+)min x (+)min
+	MUL	$9, $5, $4	# (+)max x (+)min
+	MUL	$10, $4, $5	# (+)min x (+)max
+	MUL	$11, $5, $5	# (+)max x (+)max
+
+	MUL	$12, $4, $6	# (+)min x (-)min
+	MUL	$13, $5, $6	# (+)max x (-)min
+	MUL	$14, $4, $7	# (+)min x (-)max
+	MUL	$15, $5, $7	# (+)max x (-)max
+
+	MUL	$16, $6, $4	# (-)min x (+)min
+	MUL	$17, $7, $4	# (-)max x (+)min
+	MUL	$18, $6, $5	# (-)min x (+)max
+	MUL	$19, $7, $5	# (-)max x (+)max
+
+	MUL	$20, $6, $6	# (-)min x (-)min
+	MUL	$21, $7, $6	# (-)max x (-)min
+	MUL	$22, $6, $7	# (-)min x (-)max
+	MUL	$23, $7, $7	# (-)max x (-)max
+
+        JAL	store_result
+	NOP	# Jump/Branch Slot
+
+
+	LX	$2, ds_mul+24	# $2 = 0x00000002
+	LX	$3, ds_mul+28   # $3 = 0x00000003 
+	LX	$4, ds_mul+32   # $4 = 0x7EA341CD
+	LX	$5, ds_mul+36   # $5 = 0x748FE289
+	LX	$6, ds_mul+40   # $6 = 0xFFFFFFFF
+	LX	$7, ds_mul+44   # $7 = 0xFFFFFFFC
+
+
+	MUL	$8, $0, $0	# $8 = 0x00000000
+	SW	$8, 0($29)
+	MUL	$9, $2, $3	# $9 = 0x00000006
+	SW	$9, 4($29)
+	MUL	$10, $4, $5	# $10 = 0x8AF830B5
+	SW	$10, 8($29)
+	MUL	$11, $6, $7	# $11 = 0x00000004
+	SW	$11, 12($29)
+	MUL	$12, $2, $6	# $12 = 0xFFFFFFFE
+	SW	$12, 16($29)	
+
+
+        LA	$4, result_mul
+        LA	$5, comp_pool
+        ADDI	$6, $0, 84
+        JAL	comp
+        NOP	# Jump/Branch Slot
+
+
+        LW	$24, 20($28)
+        ORI	$24, $24, 0x0010
+        SW	$24, 20($28)
+        LA	$29, comp_pool
+
+        #----------------------------------------------------------------------
+        # MULT (ID:0x0020)
+        #----------------------------------------------------------------------
+
+	LX	$4, ds_mul+8	# $4 = 0x00000001 , Sign (+)min value (except zero)
+	LX	$5, ds_mul+12	# $5 = 0x7FFFFFFF , Sign (+)max value (except zero)
+	LX	$6, ds_mul+16	# $6 = 0x80000000 , Sign (-)min value (except zero)
+	LX	$7, ds_mul+20	# $7 = 0xFFFFFFFF , Sign (-)max value (except zero)
+
+	# Testing for Zero Vaule
+
+	MULT	$4, $4		# (+)min x (+)min
+	MFLO	$8	
+	MFHI	$9
+	MULT	$5, $4		# (+)max x (+)min
+	MFLO	$10	
+	MFHI	$11	
+	MULT	$4, $5		# (+)min x (+)max
+	MFLO	$12	
+	MFHI	$13	
+	MULT	$5, $5		# (+)max x (+)max
+	MFLO	$14	
+	MFHI	$15
+		
+	MULT	$4, $6		# (+)min x (-)min
+	MFLO	$16	
+	MFHI	$17	
+	MULT	$5, $6		# (+)max x (-)min
+	MFLO	$18	
+	MFHI	$19	
+	MULT	$4, $7		# (+)min x (-)max
+	MFLO	$20	
+	MFHI	$21	
+	MULT	$5, $7		# (+)max x (-)max
+	MFLO	$22	
+	MFHI	$23
+	
+        JAL	store_result
+	NOP	# Jump/Branch Slot
+	
+		
+	MULT	$6, $4		# (-)min x (+)min
+	MFLO	$8	
+	MFHI	$9
+	MULT	$7, $4		# (-)max x (+)min
+	MFLO	$10	
+	MFHI	$11
+	MULT	$6, $5		# (-)min x (+)max
+	MFLO	$12	
+	MFHI	$13
+	MULT	$7, $5		# (-)max x (+)max
+	MFLO	$14	
+	MFHI	$15
+	MULT	$6, $6		# (-)min x (-)min
+	MFLO	$16	
+	MFHI	$17
+	MULT	$7, $6		# (-)max x (-)min
+	MFLO	$18	
+	MFHI	$19
+	MULT	$6, $7		# (-)min x (-)max
+	MFLO	$20	
+	MFHI	$21
+	MULT	$7, $7		# (-)max x (-)max
+	MFLO	$22	
+	MFHI	$23
+	
+        JAL	store_result
+	NOP	# Jump/Branch Slot
+
+
+	LX	$2, ds_mul+24	# $2 = 0x00000002
+	LX	$3, ds_mul+28   # $3 = 0x00000003 
+	LX	$4, ds_mul+32   # $4 = 0x7EA341CD
+	LX	$5, ds_mul+36   # $5 = 0x748FE289
+	LX	$6, ds_mul+40   # $6 = 0xFFFFFFFF
+	LX	$7, ds_mul+44   # $7 = 0xFFFFFFFC
+
+
+	MULT	$0, $0		# {HI,LO} = 0x00000000_00000000
+	MFLO	$8		# $8 = 0x00000000
+	MFHI	$9		# $9 = 0x00000000
+	SW	$8, 0($29)
+	SW	$9, 4($29)
+	
+	MULT	$2, $3		# {HI,LO} = 0x00000000_00000006
+	MFLO	$10		# $10 = 0x00000006
+	MFHI	$11		# $11 = 0x00000000
+	SW	$10, 8($29)
+	SW	$11, 12($29)
+	
+	MULT	$4, $5		# {HI,LO} = 0x39A92712_8AF830B5
+	MFLO	$12		# $12 = 0x8AF830B5
+	MFHI	$13		# $13 = 0x39A92712
+	SW	$12, 16($29)
+	SW	$13, 20($29)
+	
+	MULT	$6, $7		# {HI,LO} = 0x00000000_00000004
+	MFLO	$14		# $14 = 0x00000004
+	MFHI	$15		# $15 = 0x00000000
+	SW	$14, 24($29)
+	SW	$15, 28($29)
+	
+	MULT	$2, $6		# {HI,LO} = 0xFFFFFFFF_FFFFFFFE
+	MFLO	$16		# $16 = 0xFFFFFFFE
+	MFHI	$17		# $17 = 0xFFFFFFFF
+	SW	$16, 32($29)
+	SW	$17, 36($29)	
+
+
+        LA	$4, result_mult
+        LA	$5, comp_pool
+        ADDI	$6, $0, 168
+        JAL	comp
+        NOP	# Jump/Branch Slot
+
+
+        LW	$24, 20($28)
+        ORI	$24, $24, 0x0020
+        SW	$24, 20($28)
+        LA	$29, comp_pool
+
+
+        #----------------------------------------------------------------------
+        # MULTU (ID:0x0040)
+        #----------------------------------------------------------------------
+	LX	$2, ds_mul	# $2 = 0x00000001 , Unsign min value (except zero)
+	LX	$3, ds_mul+4	# $3 = 0xFFFFFFFF , Unsign max value (except zero)
+	
+	MULTU	$2, $2		# {HI,LO} = 0x00000000_00000001
+	MFLO	$8		# $8 = 0x00000001
+	MFHI	$9		# $9 = 0x00000000
+	SW	$8, 0($29)
+	SW	$9, 4($29)
+	
+	MULTU	$2, $3		# {HI,LO} = 0x00000000_FFFFFFFF
+	MFLO	$10		# $10 = 0xFFFFFFFF
+	MFHI	$11		# $11 = 0x00000000
+	SW	$10, 8($29)
+	SW	$11, 12($29)
+	
+	MULTU	$3, $2		# {HI,LO} = 0x00000000_FFFFFFFF
+	MFLO	$12		# $12 = 0xFFFFFFFF
+	MFHI	$13		# $13 = 0x00000000
+	SW	$12, 16($29)
+	SW	$13, 20($29)
+	
+	MULTU	$3, $3		# {HI,LO} = 0xFFFFFFFE_00000001
+	MFLO	$14		# $14 = 0x00000001
+	MFHI	$15		# $15 = 0xFFFFFFFE
+	SW	$14, 24($29)
+	SW	$15, 28($29)
+
+        LA	$4, result_multu
+        LA	$5, comp_pool
+        ADDI	$6, $0, 32
+        JAL	comp
+        NOP	# Jump/Branch Slot
+
+        LW	$24, 20($28)
+        ORI	$24, $24, 0x0040
+        SW	$24, 20($28)
+        LA	$29, comp_pool
+        
+        #----------------------------------------------------------------------
+        # Return to Main Body
+        #----------------------------------------------------------------------        
+        JR	$30
+        NOP	# Jump/Branch Slot
+
+
+#==============================================================================
+# 	Class 6¡GStore Instructions
+#==============================================================================
+check_store:
+
+	MOVE	$30, $31	# assign $30 = main code return address
+	LA	$2, ds_store
+	
+	#----------------------------------------------------------------------
+        # SB (ID:0x0001)
+        #----------------------------------------------------------------------       
+	SW	$0, 0($29)	
+	SW	$0, 4($29)
+	SW	$0, 8($29)
+	SW	$0, 12($29)
+	LW	$3, 0($2)
+	
+	SB	$3, 0($29)
+	SB	$3, 5($29)
+	SB	$3, 10($29)
+	SB	$3, 15($29)
+
+        LA	$4, result_sb
+        LA	$5, comp_pool
+        ADDI	$6, $0, 16
+        JAL	comp
+        NOP	# Jump/Branch Slot
+
+        LW	$24, 36($28)
+        ORI	$24, $24, 0x0001
+        SW	$24, 36($28)
+        LA	$29, comp_pool
+        	
+
+	#----------------------------------------------------------------------
+        # SH (ID:0x0002)
+        #----------------------------------------------------------------------       
+
+	#----------------------------------------------------------------------
+        # SWL (ID:0x0004)
+        #----------------------------------------------------------------------       
+
+	#----------------------------------------------------------------------
+        # SW (ID:0x0008)
+        #----------------------------------------------------------------------       
+
+	#----------------------------------------------------------------------
+        # SWR (ID:0x0010)
+        #----------------------------------------------------------------------       
+
+        #----------------------------------------------------------------------
+        # Return to Main Body
+        #----------------------------------------------------------------------        
+        JR	$30
+        NOP	# Jump/Branch Slot
+
+
+#==============================================================================
+# 	Data Section
+#==============================================================================
+
+        .DATA
+ds1:    WORD 	0b10110011_10001111_00001111_10000011
+	WORD 	0b01001100_01110000_11110000_01111100
+	WORD 	0b00110011_00001111_00000000_11111111
+	WORD 	0b11001100_11110000_11111111_00000000
+
+ds2:	WORD 	1234
+	WORD 	5678
+
+ds_mul:	
+	WORD	0x00000001	# Unsign min value (except zero)
+	WORD	0xFFFFFFFF	# Unsign max value (except zero)
+	WORD	0x00000001	# Sign (+)min value (except zero)
+	WORD	0x7FFFFFFF	# Sign (+)max value (except zero)
+	WORD	0x80000000	# Sign (-)min value (except zero)
+	WORD	0xFFFFFFFF	# Sign (-)max value (except zero)
+	WORD	0x00000002
+	WORD	0x00000003
+	WORD	0x7EA341CD
+	WORD	0x748FE289
+	WORD	0xFFFFFFFF
+	WORD	0xFFFFFFFC
+
+
+ds_store:
+	WORD	0xDDCCBBAA	
+	
+
+result_mfmt:
+	WORD 	0b10110011_10001111_00001111_10000011
+	WORD 	0b01001100_01110000_11110000_01111100
+	WORD 	0b00110011_00001111_00000000_11111111
+	WORD 	0b11001100_11110000_11111111_00000000
+	WORD 	0b10110011_10001111_00001111_10000011
+	WORD 	0b01001100_01110000_11110000_01111100
+	WORD 	0b00110011_00001111_00000000_11111111
+	WORD 	0b11001100_11110000_11111111_00000000
+
+result_mul:
+	WORD 	0x00000001
+	WORD 	0x7FFFFFFF
+	WORD 	0x7FFFFFFF
+	WORD 	0x00000001
+
+	WORD 	0x80000000
+	WORD 	0x80000000
+	WORD 	0xFFFFFFFF
+	WORD 	0x80000001
+
+	WORD 	0x80000000
+	WORD 	0xFFFFFFFF
+	WORD 	0x80000000
+	WORD 	0x80000001
+
+	WORD 	0x00000000
+	WORD 	0x80000000
+	WORD 	0x80000000
+	WORD 	0x00000001
+
+	WORD	0x00000000
+	WORD	0x00000006
+	WORD	0x8AF830B5
+	WORD	0x00000004
+	WORD	0xFFFFFFFE
+
+result_mult:
+	WORD 	0x00000001
+	WORD	0x00000000
+	WORD 	0x7FFFFFFF
+	WORD	0x00000000
+	WORD 	0x7FFFFFFF
+	WORD	0x00000000
+	WORD 	0x00000001
+	WORD	0x3FFFFFFF
+
+	WORD 	0x80000000
+	WORD 	0xFFFFFFFF
+	WORD 	0x80000000
+	WORD 	0xC0000000
+	WORD 	0xFFFFFFFF
+	WORD 	0xFFFFFFFF
+	WORD 	0x80000001
+	WORD 	0xFFFFFFFF
+
+	WORD 	0x80000000
+	WORD 	0xFFFFFFFF
+	WORD 	0xFFFFFFFF
+	WORD 	0xFFFFFFFF
+	WORD 	0x80000000
+	WORD 	0xC0000000
+	WORD 	0x80000001
+	WORD 	0xFFFFFFFF
+
+	WORD 	0x00000000
+	WORD 	0x40000000
+	WORD 	0x80000000
+	WORD 	0x00000000
+	WORD 	0x80000000
+	WORD 	0x00000000
+	WORD 	0x00000001
+	WORD 	0x00000000
+
+	WORD	0x00000000
+	WORD	0x00000000
+	WORD	0x00000006
+	WORD	0x00000000
+	WORD	0x8AF830B5
+	WORD	0x39A92712
+	WORD	0x00000004
+	WORD	0x00000000
+	WORD	0xFFFFFFFE
+	WORD	0xFFFFFFFF
+
+result_multu:
+	WORD	0x00000001
+	WORD	0x00000000
+	WORD	0xFFFFFFFF
+	WORD	0x00000000
+	WORD	0xFFFFFFFF
+	WORD	0x00000000
+	WORD	0x00000001
+	WORD	0xFFFFFFFE
+
+
+result_sb:
+	WORD	0x000000AA
+	WORD	0x0000AA00
+	WORD	0x00AA0000
+	WORD	0xAA000000
+					
+        .END

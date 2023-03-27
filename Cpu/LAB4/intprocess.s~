@@ -1,0 +1,44 @@
+addiu $sp,$sp,-128
+
+move  $k0,$1
+sw    $k0,0($sp)
+move  $k0,$2
+sw    $k0,4($sp)
+move  $k0,$3
+sw    $k0,8($sp)
+move  $k0,$4
+sw    $k0,12($sp)
+move  $k0,$5
+sw    $k0,16($sp)
+move  $k0,$6
+sw    $k0,20($sp)
+move  $k0,$7
+sw    $k0,24($sp)
+move  $k0,$8
+sw    $k0,28($sp)
+move  $k0,$9
+sw    $k0,32($sp)
+
+
+
+move $8,$0
+move $9,$0
+move $10,$0
+
+
+lw    $1,0($sp)
+lw    $2,4($sp)
+lw    $3,8($sp)
+lw    $4,12($sp)
+lw    $5,16($sp)
+lw    $6,20($sp)
+lw    $7,24($sp)
+lw    $8,28($sp)
+lw    $9,32($sp)
+
+
+
+
+
+addiu $sp,$sp,128
+jr    $31

@@ -1,0 +1,4 @@
+挑戰題第三題是要做解碼的動作，把32bit的指令拆成OP,RS,RT,RD,SHAMT,FUNC和OFFSET，
+所以只要寫一個testbench和一個decoder，在testbench裡呼叫decoder的model並且傳ins給他，
+decoder裡把OP,RS,RT,RD,SHAMT,FUNC和OFFSET的值包在always@(ins)裡，根據每次ins變動回傳新的值，
+然後到modelsim用simulate看變化應證對錯就好了。

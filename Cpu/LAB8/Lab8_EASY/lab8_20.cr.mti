@@ -1,0 +1,15 @@
+C:/Users/candy/Desktop/cpu/LAB8/LAB8/lab8_code/EASY.v {1 {vlog -work work -stats=none {C:\Users\candy\Desktop\cpu\LAB8\LAB8\lab8_code\EASY.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module EASY
+
+Top level modules:
+	EASY
+
+} {} {}} C:/Users/candy/Desktop/cpu/LAB8/LAB8/lab8_code/Decoder.v {1 {vlog -work work -stats=none {C:\Users\candy\Desktop\cpu\LAB8\LAB8\lab8_code\Decoder.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Decoder
+
+Top level modules:
+	Decoder
+
+} {} {}}

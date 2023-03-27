@@ -1,0 +1,63 @@
+
+bubble.image:     file format elf32-tradbigmips
+
+Disassembly of section .text:
+
+00008000 <main>:
+    8000:	3c091000 	lui	t1,0x1000
+    8004:	240a0064 	li	t2,100
+    8008:	00004021 	move	t0,zero
+    800c:	254bffff 	addiu	t3,t2,-1
+    8010:	01481023 	subu	v0,t2,t0
+    8014:	2442ffff 	addiu	v0,v0,-1
+    8018:	18400010 	blez	v0,805c <main+0x5c>
+    801c:	00003021 	move	a2,zero
+    8020:	01481023 	subu	v0,t2,t0
+    8024:	2447ffff 	addiu	a3,v0,-1
+    8028:	00061080 	sll	v0,a2,0x2
+    802c:	00491821 	addu	v1,v0,t1
+    8030:	8c640004 	lw	a0,4(v1)
+    8034:	8c650000 	lw	a1,0(v1)
+    8038:	0085102a 	slt	v0,a0,a1
+    803c:	10400003 	beqz	v0,804c <main+0x4c>
+    8040:	00000000 	nop
+    8044:	ac640000 	sw	a0,0(v1)
+    8048:	ac650004 	sw	a1,4(v1)
+    804c:	24c60001 	addiu	a2,a2,1
+    8050:	00c7102a 	slt	v0,a2,a3
+    8054:	1440fff5 	bnez	v0,802c <main+0x2c>
+    8058:	00061080 	sll	v0,a2,0x2
+    805c:	25080001 	addiu	t0,t0,1
+    8060:	010b102a 	slt	v0,t0,t3
+    8064:	1440ffea 	bnez	v0,8010 <main+0x10>
+    8068:	00001021 	move	v0,zero
+    806c:	03e00008 	jr	ra
+    8070:	00000000 	nop
+Disassembly of section .comment:
+
+00000000 <.comment>:
+   0:	00474343 	0x474343
+   4:	3a202847 	xori	zero,s1,0x2847
+   8:	4e552920 	c3	0x552920
+   c:	332e342e 	andi	t6,t9,0x342e
+  10:	34206d69 	ori	zero,at,0x6d69
+  14:	70737364 	0x70737364
+  18:	652d362e 	0x652d362e
+  1c:	30322e30 	andi	s2,at,0x2e30
+  20:	322d3230 	andi	t5,s1,0x3230
+  24:	30353036 	andi	s5,at,0x3036
+  28:	Address 0x28 is out of bounds.
+
+Disassembly of section .reginfo:
+
+0000002c <.reginfo>:
+  2c:	80000ffc 	lb	zero,4092(zero)
+	...
+  40:	00010070 	tge	zero,at,0x1
+Disassembly of section .pdr:
+
+00000000 <.pdr>:
+   0:	00008000 	sll	s0,zero,0x0
+	...
+  18:	0000001d 	0x1d
+  1c:	0000001f 	0x1f

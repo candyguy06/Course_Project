@@ -1,0 +1,1072 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\IRQ_mips\MIPS_cpu_test
+v_mem_ctrl
+I;VfgY7>2Pi50n9NS?C7dF2
+VOLRQWXME>BM[CiLh:Ra9R0
+Z1 dD:\caslab\COexp\MIPS_cpu_test
+w1366618028
+Z2 8D:/caslab/COexp/MIPS_cpu_test/mem_ctrl.v
+Z3 FD:/caslab/COexp/MIPS_cpu_test/mem_ctrl.v
+L0 1
+Z4 OV;L;10.0d;49
+r1
+31
+Z5 !s90 -reportprogress|300|-work|work|-nocovercells|D:/caslab/COexp/MIPS_cpu_test/mem_ctrl.v|
+Z6 !s102 -nocovercells
+Z7 o-work work -nocovercells -O0
+n@_mem_ctrl
+Z8 !s107 D:/caslab/COexp/MIPS_cpu_test/mem_ctrl.v|
+!s100 HYDo:74c`9Hh`K]QA[LdN3
+!s108 1366619150.534000
+!s85 0
+!s101 -O0
+T_opt
+Vc`C^`=aG;c1YAYQe]<K0d2
+Z9 04 9 4 work testbench fast 0
+=1-00261890c79d-51dccc10-30376-c6b
+Z10 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1b;51
+Z11 dD:\IRQ_mips\MIPS_cpu_test
+T_opt1
+V<c8Am@TBjfZo4kWj82F@31
+R9
+=1-5404a68a2d22-51e8ca44-7ed07-13af
+R10
+n@_opt1
+OE;O;10.1a;51
+vboot_state
+V5TOa23e:K8PSh8BlDTnM33
+r1
+31
+IA4XheL3HPSXD>6^Ybc1A>2
+Z12 d/home/blahuang/Desktop/COexp/MIPS_cpu_test
+w1373445601
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/boot_state.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/boot_state.v
+L0 21
+Z13 OE;L;10.1a;51
+Z14 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s85 0
+!s100 f:Qe?4LWSl]dW9a7Ukf3Y3
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/boot_state.v|
+!s108 1374140079.370428
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/boot_state.v|
+vbranch_unit
+VbDO2D^RGFf<0j0=dmWTZb2
+r1
+31
+Ie3W;AXhjc:n1f7HPM2V`H3
+R12
+Z15 w1373445589
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/branch_unit.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/branch_unit.v
+L0 22
+R13
+R14
+!i10b 1
+!s85 0
+!s100 [gPo?C<7?4T<de`lU=4Z;2
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/branch_unit.v|
+!s108 1374140079.410913
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/branch_unit.v|
+vcache
+V7iF<zAYXmZdi?bL^T_27^2
+r1
+31
+INmk<Ejn9e>PV=BH1=U@]J2
+R12
+Z16 w1373445602
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cache.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cache.v
+L0 1
+R13
+R14
+!i10b 1
+!s85 0
+!s100 mTLIi54c]mZH8QS^kLdFO0
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cache.v|
+!s108 1374140079.448588
+!s107 /home/blahuang/Desktop/COexp/MIPS_cpu_test/cache.v|
+vcacheDecide
+V^F1@<=_=L`fSEk:86GK_e3
+r1
+31
+IPL]oCA@A63bfJAZzZDC`h1
+R12
+w1373612984
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/decision.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/decision.v
+L0 3
+R13
+R14
+ncache@decide
+!i10b 1
+!s85 0
+!s100 jWTRNbeHVGGUeEWZ]Vn1m0
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/decision.v|
+!s108 1374140080.284850
+!s107 /home/blahuang/Desktop/COexp/MIPS_cpu_test/decision.v|
+vchange_signal
+I?2NTk^EEKd^H`olHlJHdo2
+VZUz92Jk4hCBRFG_z>iLCC1
+R12
+Z17 w1373445595
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/change_signal.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/change_signal.v
+L0 3
+R13
+r1
+31
+R14
+!s100 kSgYg53P[c71`S^NhjnAO1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/change_signal.v|
+!s108 1374140079.468769
+!s107 /home/blahuang/Desktop/COexp/MIPS_cpu_test/change_signal.v|
+!i10b 1
+!s85 0
+vclkrst
+Ifc0HUM0ojDUW:PL;j[X5Q3
+VK>2=mbfl0iJWOIS>jZz]C0
+R12
+Z18 w1373445586
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/clkrst.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/clkrst.v
+L0 4
+R13
+r1
+31
+R14
+!s100 a1kB?o@[TJ]O`b5OW?P^70
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/clkrst.v|
+!s108 1374140079.489897
+!s107 /home/blahuang/Desktop/COexp/MIPS_cpu_test/clkrst.v|
+!i10b 1
+!s85 0
+vcontrol_unit
+V5SNO5ABCoLBgN<^oNQd>^3
+r1
+31
+IGNmiXM^RL4<M4dM?;<K8:0
+R12
+R15
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/control_unit.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/control_unit.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 Khk:2;1JF8>0l8F7G3_6T3
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/control_unit.v|
+!s108 1374140079.526165
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/control_unit.v|
+vcount
+V=K1L>eQ97=Lb_HOPGiLo_2
+r1
+31
+IjRGe;19kiUEmaQX0^N:g[0
+R12
+Z19 w1373445581
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/count.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/count.v
+L0 3
+R13
+R14
+!i10b 1
+!s85 0
+!s100 ^j0d3FMk?5W[H;<FJ7od>0
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/count.v|
+!s108 1374140079.574722
+!s107 /home/blahuang/Desktop/COexp/MIPS_cpu_test/count.v|
+vcpu_core
+VaN3mEiFmUKGT@QDa?Z`ze0
+r1
+31
+IoC8>;8zW^TK5iQTPeUn<R2
+R12
+w1374062562
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v
+L0 22
+R13
+R14
+!i10b 1
+!s85 0
+!s100 7L^_ZR>U73KcHzk>jQ?gG1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v|
+!s108 1374140079.614619
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v|
+vcpu_decode5to32
+Vn14fRCCl_=L]98A?<l53T3
+r1
+31
+IQY:90;kzE58WPNI<TGW`c0
+R12
+R19
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_decode5to32.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_decode5to32.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 <7[8[bmiF?Mlc74a9ncCd1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_decode5to32.v|
+!s108 1374140079.656927
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_decode5to32.v|
+vcpu_ex
+VX0fHZ63iQ>Oh]D1fibSYm0
+r1
+31
+I]9GAHHTXeRXV3Qda2^9Ym2
+R12
+w1373445594
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 8NP53OgX41:F5EAT4l36i0
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v|
+!s108 1374140079.685711
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v|
+vcpu_id
+Vhm5^mJMe4C4M_7?Vf6POQ3
+r1
+31
+IBV?jTgELc2ORm2VaB]flJ1
+R12
+w1373445579
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 _<[@<o5]h?PH:84h:n8`z0
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v|
+!s108 1374140079.728202
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v|
+vcpu_if
+V^M44M5MBc0K=>3>eFOQ<V0
+r1
+31
+IOXl9aL3i2F7L1Vjb7e68J2
+R12
+Z20 w1373445582
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_if.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_if.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 jjXh=oMBQW<RikjZFIS5_0
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_if.v|
+!s108 1374140079.754071
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_if.v|
+vcpu_mem
+V<fZ7G@9i^HED`d4eZ:`i^1
+r1
+31
+IYFUTEc@W;PcW<NNTeH@z?3
+R12
+Z21 w1373445592
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 6I[[k36WmioGM8MjG2YTA1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v|
+!s108 1374140079.790471
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v|
+vcpu_reg1_ne
+V_l<Xi@3Z_[6L:;o1`0E^Z2
+r1
+31
+ITNc3:Z1SMZKd70Q_LeUz_2
+R12
+Z22 w1373445583
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg1_ne.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg1_ne.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 J<ngKWlbKOFKD4O`JdS^D3
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg1_ne.v|
+!s108 1374140079.811996
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg1_ne.v|
+vcpu_reg2_ne
+V:PN[R?>;hCLdhZ5@3X=z]2
+r1
+31
+IVC@oX4XPoJP_JCL8M`@Dc3
+R12
+R21
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg2_ne.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg2_ne.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 Do0gY92RD6TADSjmnLam_0
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg2_ne.v|
+!s108 1374140079.832876
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg2_ne.v|
+vcpu_reg32_ne
+V54:]Vb<8=L@UzLZoGe@9[2
+r1
+31
+I<zRaZb]h=3oga6l1?IJ?@2
+R12
+R20
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg32_ne.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg32_ne.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 <G91=hg@1Q1=];g4Ag_HS1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg32_ne.v|
+!s108 1374140080.048150
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg32_ne.v|
+vcpu_reg32_ne_ex
+VaLQL@2K7L<AhH_=?BbM[m2
+r1
+31
+I74[fF3PNC<;D9_93cF<[F2
+R12
+Z23 w1373445598
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg32_ne_ex.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg32_ne_ex.v
+L0 6
+R13
+R14
+!i10b 1
+!s85 0
+!s100 DIIU0]=nNDo@1JlRAfPnl3
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg32_ne_ex.v|
+!s108 1374140080.069528
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg32_ne_ex.v|
+vcpu_reg3_ne
+V>M_n=0Pae=@EMUFaaFSRW0
+r1
+31
+IiRakbgIEUWzfUz:JM_R@43
+R12
+R15
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg3_ne.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg3_ne.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 55ZAQj_Gh`WM[XMliZh`60
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg3_ne.v|
+!s108 1374140079.869284
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg3_ne.v|
+vcpu_reg4_ne
+Vc_16M5g7TFj2hZEOa?DK[1
+r1
+31
+ILjdcO;kb6=47mfHUX5A=f3
+R12
+Z24 w1373445596
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg4_ne.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg4_ne.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 MN<:N;162aWfVN_g=dDBo0
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg4_ne.v|
+!s108 1374140079.891880
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg4_ne.v|
+vcpu_reg5_ne
+VzF>2e_k4`G@He>eG2h;Gc3
+r1
+31
+I?X_kD:_0P<loAUVfL_^7K1
+R12
+R16
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg5_ne.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg5_ne.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 9dTdaGJGa0]f1:9_?hRkj1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg5_ne.v|
+!s108 1374140079.930836
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg5_ne.v|
+vcpu_reg8_ne
+VzGa?^8=60IXURUgMf`FTn1
+r1
+31
+IFEj6@d4z<_N0^7CTe9__31
+R12
+R16
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg8_ne.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg8_ne.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 IYWGW@@@:8hMD7UG<:Bk[2
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg8_ne.v|
+!s108 1374140079.968350
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg8_ne.v|
+vcpu_reg8x4_ne
+Vag?M?^7cA5>1Q1BMJ]UX:1
+r1
+31
+I0Rkz?F6bak<3MZ2Dm7;;G3
+R12
+Z25 w1373445588
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg8x4_ne.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg8x4_ne.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 11@CCWIfU;<Bl00<B]jhE2
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg8x4_ne.v|
+!s108 1374140079.991049
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg8x4_ne.v|
+vcpu_reg8x4_ne_cp
+V_8[^7PjzPHM91I`W=jW[X2
+r1
+31
+Ifl2_Kf@48Z]eT<e7KG<GG3
+R12
+w1373445577
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg8x4_ne_cp.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg8x4_ne_cp.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 BZ48_B`D5n[Y0FYRdQH?:0
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg8x4_ne_cp.v|
+!s108 1374140080.027847
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_reg8x4_ne_cp.v|
+vcpu_regbank
+VWA_1zXXajTcb^Bif0fJKD2
+r1
+31
+IERMJ@O2XG2Wc<da^^7:S>3
+R12
+R22
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_regbank.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_regbank.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 hWU9MWkITK7jhjn=fDjcZ0
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_regbank.v|
+!s108 1374140080.106542
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_regbank.v|
+vcpu_top
+Vfj1_b>4BQ=i=P1`P5PUA?0
+r1
+31
+ICE1gLN0g[>I<I>DdMj`FP2
+R12
+Z26 w1374140066
+Fcpu_top.v
+Z27 8/home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v
+Z28 F/home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v
+L0 23
+R13
+Z29 !s108 1374140081.095032
+Z30 !s107 I_Cache.v|cpu_top.v|dcache_system.v|memory.v|timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v|
+Z31 !s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v|
+R14
+!i10b 1
+!s85 0
+!s100 BHg3<M:^gFl9nDUC9QL031
+vcpu_wb
+VVG1dif0YAC=VQ<1lA6:cI0
+r1
+31
+IkMd9o>N@4PkVadDgBZ66;2
+R12
+R24
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_wb.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_wb.v
+L0 22
+R13
+R14
+!i10b 1
+!s85 0
+!s100 gi3zdglCjkCbn41ZX6OlS0
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_wb.v|
+!s108 1374140080.173849
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_wb.v|
+vcpu_wb_alignment
+VS2_eUk:C<L6ZjT2jm9<RM3
+r1
+31
+ISSdFIB^32Vb<K2aETae0W3
+R12
+R21
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_wb_alignment.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_wb_alignment.v
+L0 22
+R13
+R14
+!i10b 1
+!s85 0
+!s100 W7>Gd9BWO:L?K9hGYPlbB1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_wb_alignment.v|
+!s108 1374140080.214495
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_wb_alignment.v|
+vctrl
+I_XE^9Xiebz<MYQ]UGRV7g3
+VohNEzb?UEZH1>LYLZiBDZ2
+R1
+w1366550986
+R2
+R3
+L0 1
+R4
+r1
+31
+R5
+R6
+R7
+R8
+!s100 Lm098IEdc4U>gI5cMUJJ03
+!s108 1366617794.397000
+!s85 0
+!s101 -O0
+vdcache_system
+VA^iVJ[?Ak[JJ;B@Nh7CJI3
+r1
+31
+IU9We=9]O=ga@hk:d`iOgb2
+R12
+R26
+Fdcache_system.v
+R27
+R28
+L0 3
+R13
+R29
+R30
+R31
+R14
+!i10b 1
+!s85 0
+!s100 E3;RQnU61kZLUbbL4nTie3
+vdff
+IZZcik0LbHbnJNYTW6;eW@2
+V;GC@fJC4l9bF1doI@Q2XK3
+R12
+R23
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/dff.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/dff.v
+L0 3
+R13
+r1
+31
+R14
+!s100 4Bl0HV4a<5YaQ@im9CzGa1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/dff.v|
+!s108 1374140080.321103
+!s107 /home/blahuang/Desktop/COexp/MIPS_cpu_test/dff.v|
+!i10b 1
+!s85 0
+vdff_en
+IV8P4TB^18XFDbcHG<`bT>3
+VLzXHO@O?Ha6mU93kkC5Qo1
+R12
+Z32 w1373445590
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/dff_en.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/dff_en.v
+L0 3
+R13
+r1
+31
+R14
+!s100 3T?n9[NOg1A9RAK>70D9K1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/dff_en.v|
+!s108 1374140080.357867
+!s107 /home/blahuang/Desktop/COexp/MIPS_cpu_test/dff_en.v|
+!i10b 1
+!s85 0
+vforward_unit
+VifU;YeHZ0SLD`eN0d1:Hn1
+r1
+31
+IlE7AAWBSbZNF1VYB<mXED1
+R12
+Z33 w1373445600
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/forward_unit.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/forward_unit.v
+L0 22
+R13
+R14
+!i10b 1
+!s85 0
+!s100 [o7oL[LJOf102]YSA23]b1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/forward_unit.v|
+!s108 1374140080.383356
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/forward_unit.v|
+vfu_alu
+VflTL^h8K8RSXY^KlQhbG@1
+r1
+31
+IW4C[A<:3:^^?4_8lU4dHX1
+R12
+Z34 w1373445597
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_alu.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_alu.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 BWihW;XKmVhFiCmRDH[ab3
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_alu.v|
+!s108 1374140080.420019
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_alu.v|
+vfu_cla4
+V3AFG=cC6UEcZGdnAWEg=J1
+r1
+31
+INiZ>4=cD368AX`NW0H7F51
+R12
+R33
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_cla4.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_cla4.v
+L0 23
+R13
+R14
+!i10b 1
+!s85 0
+!s100 3>z76aHz<>k4FfSXhM2_o0
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_cla4.v|
+!s108 1374140080.444013
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_cla4.v|
+vfu_cla4v
+VlHE:66<R8UzOfjI^=hAkW0
+r1
+31
+INA:kfel2FFMc4<N>5B=?i2
+R12
+R34
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_cla4v.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_cla4v.v
+L0 24
+R13
+R14
+!i10b 1
+!s85 0
+!s100 3H77>nJ^MWO=54T8]?G^83
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_cla4v.v|
+!s108 1374140080.464334
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_cla4v.v|
+vfu_csa16
+V`0PTcgme<?0zkz71e^?]^0
+r1
+31
+I7lW_5<iLSWYm@e7n@eE>?0
+R12
+R25
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa16.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa16.v
+L0 23
+R13
+R14
+!i10b 1
+!s85 0
+!s100 4:;O?M0EaBklIiM9G^1ND2
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa16.v|
+!s108 1374140080.545745
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa16.v|
+vfu_csa16v
+V0JPoL5l]9KbF5LMPN=^H]1
+r1
+31
+ILa8jUnR0anKSoA>>61aEX0
+R12
+R32
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa16v.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa16v.v
+L0 24
+R13
+R14
+!i10b 1
+!s85 0
+!s100 2P_W6ZeBzIQ3`[o3E7P333
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa16v.v|
+!s108 1374140080.578743
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa16v.v|
+vfu_csa32
+V4nK?WOOO1W;h8]b3[jMS71
+r1
+31
+II150z7IMH1Tz@TgkDJe>f2
+R12
+R24
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa32.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa32.v
+L0 23
+R13
+R14
+!i10b 1
+!s85 0
+!s100 fQIcc]oHI0GW`:_Xn2@S_0
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa32.v|
+!s108 1374140080.617336
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa32.v|
+vfu_csa34
+V71b@Oo5_DaRzo@lelJ[Q62
+r1
+31
+I:7SiZ=3VOXz24@YEKLi=S2
+R12
+R20
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa34.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa34.v
+L0 23
+R13
+R14
+!i10b 1
+!s85 0
+!s100 FR7>z57DVK@bkS@RKRabg1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa34.v|
+!s108 1374140080.656579
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa34.v|
+vfu_csa8
+VWG;3M1mJR5:o`[Ub`58b[1
+r1
+31
+I;TBbHZW_?64BmdF3VfFdf0
+R12
+R20
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa8.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa8.v
+L0 23
+R13
+R14
+!i10b 1
+!s85 0
+!s100 QW^h<=Rhfoc4K9nF11<gD0
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa8.v|
+!s108 1374140080.486767
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa8.v|
+vfu_csa8v
+VooSCdEXce;eLb3>>G0dz70
+r1
+31
+IXiHg@k<@3`GYB3`4mOcPf2
+R12
+R24
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa8v.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa8v.v
+L0 24
+R13
+R14
+!i10b 1
+!s85 0
+!s100 CbclI_=WhMgU:ng=kA=Qc2
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa8v.v|
+!s108 1374140080.521545
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_csa8v.v|
+vfu_shifter
+VfBCdQIHGbZcHXnD9EiWmb1
+r1
+31
+IBEjZ4o5YWC@:^K5>z]>@L0
+R12
+R21
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_shifter.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_shifter.v
+L0 23
+R13
+R14
+!i10b 1
+!s85 0
+!s100 G>>nR?I76;m@82h>2B>jn1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_shifter.v|
+!s108 1374140080.696152
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_shifter.v|
+vfu_shifter_mask
+VmPgQn<ade728N;ReJVPf?2
+r1
+31
+Im3XE1c9f[g783]k3jT11C1
+R12
+R33
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_shifter_mask.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_shifter_mask.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 8]c;M?MKoJhi?GneEVnZN3
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_shifter_mask.v|
+!s108 1374140080.737000
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/fu_shifter_mask.v|
+vhazard_det_unit
+VT;6ffm1zKl09MUekG3WXk0
+r1
+31
+Iz]666jBCK3VNBz7@5fH5P0
+R12
+R18
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/hazard_det_unit.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/hazard_det_unit.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 ZeS<4:A<8@<HUbT1zFGD90
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/hazard_det_unit.v|
+!s108 1374140080.762637
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/hazard_det_unit.v|
+vhitrate
+V?eR>fSB[GzDngZ@@Tm4<A0
+r1
+31
+In1@[W7CQAnDV2MS>2iDeH1
+R12
+w1373617576
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/hitrate.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/hitrate.v
+L0 2
+R13
+R14
+!i10b 1
+!s85 0
+!s100 <h@P5LZAjJf3fG@69[H5P1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/hitrate.v|
+!s108 1374140081.169128
+!s107 /home/blahuang/Desktop/COexp/MIPS_cpu_test/hitrate.v|
+vI_Cache
+VkBDNHe1L4:8Nk1NdfV=PO3
+r1
+31
+IW<bZLGV=eRiGMk66>z38[0
+R12
+w1374045232
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/I_Cache.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/I_Cache.v
+L0 13
+R13
+R14
+n@i_@cache
+!i10b 1
+!s85 0
+!s100 ]312ez9h@4OR=z`SUJzeQ0
+!s108 1374140081.204762
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/I_Cache.v|
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/I_Cache.v|
+vinterrupt_controller
+V@ZROGK>I[lJ5L>;gl8_bR2
+r1
+31
+I:ZGEG6zndg?919In2NbkY0
+R12
+R16
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/interrupt_controller.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/interrupt_controller.v
+L0 5
+R13
+R14
+!i10b 1
+!s85 0
+!s100 a`3;eG@Qm;^;MLCihCzHW1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/interrupt_controller.v|
+!s108 1374140080.791424
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/interrupt_controller.v|
+vmem_ctrl
+VGFJKKjQ1ZBP8bj8;eZH8T3
+r1
+31
+IB4EzG9h@@:cd7C]kff;l62
+R12
+w1374060622
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/mem_ctrl.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/mem_ctrl.v
+L0 1
+R13
+R14
+!i10b 1
+!s85 0
+!s100 zYn9>zPh^gIP8eZ?ULZCD0
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/mem_ctrl.v|
+!s108 1374140080.831481
+!s107 /home/blahuang/Desktop/COexp/MIPS_cpu_test/mem_ctrl.v|
+vmemc
+VL;1L:3WWA_Jdg]?WQO>;;1
+r1
+31
+Ia<bmf][18[R6kOjlTj>R]2
+R12
+R17
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/memc.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/memc.v
+L0 3
+R13
+R14
+!i10b 1
+!s85 0
+!s100 Z@>_4N@2X90`LiULAHH6A1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/memc.v|
+!s108 1374140080.863530
+!s107 /home/blahuang/Desktop/COexp/MIPS_cpu_test/memc.v|
+vmemory
+VK9[0=<1<@hnZka;Ke8]<A2
+r1
+31
+IBkAe;hm;N?b]8^;IHCa5U3
+R12
+R26
+Fmemory.v
+R27
+R28
+L0 20
+R13
+R29
+R30
+R31
+R14
+!i10b 1
+!s85 0
+!s100 QgNN>6IGCUfUU<QiHJDnY3
+vmemv
+Vl@9EKK_U;]Z`PY6X_i4QP3
+r1
+31
+I^`m]GO_><P91^IUC6=gM53
+R12
+R20
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/memv.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/memv.v
+L0 3
+R13
+R14
+!i10b 1
+!s85 0
+!s100 J]Dg7C5m`@ZUm7cMNQ8?43
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/memv.v|
+!s108 1374140080.933886
+!s107 /home/blahuang/Desktop/COexp/MIPS_cpu_test/memv.v|
+vmul_decode
+VKTZgC0XC3=X[7clBmYhZ]1
+r1
+31
+I=WR9koQ4:cUe^[Wgo>_MC2
+R12
+R17
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/mul_decode.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/mul_decode.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 iGnPC:U]@77iY@?LbH[Xe1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/mul_decode.v|
+!s108 1374140080.969659
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/mul_decode.v|
+vmul_fsm
+V=K8_ieGKJh4?2WBOKDF_:2
+r1
+31
+I<MMUB6`SVBhZnLj7VD5ZN3
+R12
+w1373445578
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/mul_fsm.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/mul_fsm.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 ?ZWi=J:1YV;[fL;Ij;jcg1
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/mul_fsm.v|
+!s108 1374140080.991474
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/mul_fsm.v|
+vmul_reg1_ne
+Vcojgd4PFW^n<1@z0EHTFi1
+r1
+31
+I5d9?n:M=EomHc77<WQA3F2
+R12
+w1373445580
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/mul_reg1_ne.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/mul_reg1_ne.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 OM8H]`n;;m;MK8S4`LoS20
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/mul_reg1_ne.v|
+!s108 1374140081.030670
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/mul_reg1_ne.v|
+vmul_top
+Vzn8_[OAh]`E]M646@5XZ01
+r1
+31
+IF0iNkPUP:C0<@if52QZ?:1
+R12
+R21
+8/home/blahuang/Desktop/COexp/MIPS_cpu_test/mul_top.v
+F/home/blahuang/Desktop/COexp/MIPS_cpu_test/mul_top.v
+L0 21
+R13
+R14
+!i10b 1
+!s85 0
+!s100 TLK5V2=OWHRDHke;eCaYI3
+!s90 -reportprogress|300|-work|work|-vopt|/home/blahuang/Desktop/COexp/MIPS_cpu_test/mul_top.v|
+!s108 1374140081.068221
+!s107 timescale.v|/home/blahuang/Desktop/COexp/MIPS_cpu_test/mul_top.v|
+vtestbench
+V<e4VbNb3B8DD609lA=GDV0
+r1
+31
+I_QSjIfdkn8<LK4VUYHkR42
+R12
+R26
+R27
+R28
+L0 25
+R13
+R29
+R30
+R31
+R14
+!i10b 1
+!s85 0
+!s100 l:7Rim@9Q`YOMSGdJ2maN3

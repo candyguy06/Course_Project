@@ -1,0 +1,7 @@
+這次的LAB讓我們用VERILOG寫一個簡易的ALU多功器，輸入是8bit的訊號，
+但是因為加減法可能有overflow的問題，所以裡面處理需要用9bit的暫存器，
+然後把第一個bit當作overflow的訊號，後面8bit為result，
+在實作的過程中有一些小困惑，就是Result([8:0]) = a([7:0]) + b([7:0])產生的結果，
+到底是overflow = Result[8],result = Result[7:0] 還是 overflow = Result[0],result = Result[8:1]，
+還有直接拿兩個8bit直接做計算放到9bit的暫存器不會有問題嗎?還是要再多宣告2個9bit的暫存器，
+在第一位先放一個1’b0後面串原本的資料，這樣做比較保險?

@@ -1,0 +1,5 @@
+這次的LAB分成兩個部分，第一個部分是要在EASY上接線，讓Master1~3之間搶奪bus的所有權，並且讓master3有最高的優先權，
+並在tube印出當時bus的所有權屬於誰，接線方面很簡單，因為master1-3都是用同一個model，所以只要看master1-2的接線，
+把名字改成3的就好了，第二部分是將timerslave用wrapper包住並在1000個cycle時wake它，
+主要就是在master1中新增一個input wake訊號線，在wake跳起來的時候 assign給HBUSREQM，然後easy接好線，
+在跑simulate看看tube有沒有顯示timer wake檢視有沒有接對線。

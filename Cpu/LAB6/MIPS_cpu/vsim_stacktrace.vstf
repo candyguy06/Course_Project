@@ -1,0 +1,20 @@
+# Current time Fri Jun 28 12:48:31 2013
+# ModelSim PE Student Edition Stack Trace
+# Program = vsim
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win32pe
+# 0    0x007e5601: '<unknown (@0x7e5601)>'
+# 1    0x007e59be: '<unknown (@0x7e59be)>'
+# 2    0x007e6246: '<unknown (@0x7e6246)>'
+# 3    0x007e630c: '<unknown (@0x7e630c)>'
+# 4    0x1000c8ff: 'TclInvokeStringCommand + 0x8f' in 'c:\modeltech_pe_edu_10.2\win32pe_edu\tcl85.dll'
+# 5    0x1000ea6f: 'Tcl_EvalEx + 0x7ef' in 'c:\modeltech_pe_edu_10.2\win32pe_edu\tcl85.dll'
+# 6    0x1000e2a0: 'Tcl_EvalEx + 0x20' in 'c:\modeltech_pe_edu_10.2\win32pe_edu\tcl85.dll'
+# 7    0x00a9d139: '<unknown (@0xa9d139)>'
+# 8    0x1005f7b6: 'Tcl_NotifyChannel + 0x136' in 'c:\modeltech_pe_edu_10.2\win32pe_edu\tcl85.dll'
+# 9    0x100a8139: 'TclpHasSockets + 0x379' in 'c:\modeltech_pe_edu_10.2\win32pe_edu\tcl85.dll'
+# End of Stack Trace
+
+

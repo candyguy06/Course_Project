@@ -1,0 +1,21 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
++libext+.v
++incdir+/opt/cad/synopsys/synthesis/cur/dw/sim_ver
++access+r
+-noshowtop
+-ACCESS
++r
+-MESSAGES
+-XLMODE
+./INCA_libs/irun.lnx86.08.20.nc
+-RUNMODE
+-CDSLIB
+./INCA_libs/irun.lnx86.08.20.nc/cds.lib
+-HDLVAR
+./INCA_libs/irun.lnx86.08.20.nc/hdl.var
+-WORK
+worklib
+-HASXLMODE

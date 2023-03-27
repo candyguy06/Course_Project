@@ -1,0 +1,82 @@
+`define ADDRWIDTH 32
+`define DATAWIDTH 32
+`define TAGWIDTH 20
+`define IndexWidth 10
+`define Entry 64
+`define Valid 1
+
+`include "timescale.v"
+
+
+
+module I_Cache (CSn, ADDR, DO, data_in, IADDR, IREQ);
+
+	// signals between CPU and Cache
+	input				CSn;		// chip enable
+	input [31:0]		ADDR;		// read address	form CPU [31:0]=32bits
+	output [31:0]		DO;			// data output
+
+	// signals between Main_Memory and Cache
+	input [31:0]		data_in;	// IDBUS from Main_Memory (new data)
+	output [31:0]		IADDR;		// address to Main Memory
+	output				IREQ;		// access to Main Memory
+
+	
+	
+	// signals in Cache and CacheRam
+
+	wire			Cache_Hit;		// cache hit
+
+	wire [`IndexWidth-1:0]	index;
+	
+	wire [`DATAWIDTH-1:0]	data_in;	// data into CacheRam
+	wire [`DATAWIDTH-1:0]	data_out;	// data from CacheRam
+	wire [`TAGWIDTH-1:0]	tag_in;
+	wire [`TAGWIDTH-1:0]	tag_out;
+	wire					valid_in;
+	wire					valid_out;
+	
+	
+	reg [1:0]				Cache_Valid [0:`Entry-1];
+	reg [`TAGWIDTH-1:0]		Cache_Tag	[0:`Entry-1];
+	reg [31:0]				Cache_Data 	[0:`Entry-1];
+	
+
+//-----------------------------------------------
+// Begining of main code
+//-----------------------------------------------	
+
+	assign	IADDR	= 	ADDR;		// pass address to memory (use IREQ signal to control) 
+	assign 	index	= 	ADDR[11:2];
+	assign	tag_in	=	ADDR[31:12];
+	assign	valid_in = 1'b1;
+	
+	assign 	Cache_Hit = (~valid_out)?1'b0:(tag_in==tag_out)?1'b1:1'b0;
+	assign	IREQ =  (Cache_Hit)? 1'b0:1'b1;
+	assign	DO = (Cache_Hit)? data_out:data_in;
+
+	
+	always@(ADDR)
+	begin
+		valid_out = Cache_Valid[index];
+		tag_out   = Cache_Tag[index];
+		data_out  = Cache_Data[index];
+	end
+	if(IREQ)
+	begin
+		Cache_Valid[index] 	= `Valid;
+		Cache_Tag  [index]	= tag_in;
+		Cache_Data [index]	= data_in;
+	end
+	
+	initial
+	begin
+		for(i=0;i<`Entry;i=i+1)
+		begin
+			Cache_Valid[i]=0;
+			Cache_Tag[i]=0;
+			Cache_Data[i]=0;
+		end
+	end
+
+endmodule

@@ -1,0 +1,10 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-y
+/opt/cad/synopsys/synthesis/cur/dw/sim_ver/
++libext+.v
++incdir+/opt/cad/synopsys/synthesis/cur/dw/sim_ver
+testbench.v
++access+r

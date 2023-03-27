@@ -1,0 +1,7 @@
+這次的LAB主要是要叫我們看interrupt_controller.v的檔案，寫出程式碼的註解，
+並解釋always循序邏輯中在做的事情，第一個部分應該是reset，把資料歸0，
+第二個部分應該是察看發生中斷的類型和允不允許發生中斷，如果符合條件，
+就把值載入並且告訴external device，processor正在處理中斷的訊號，第三個部分比較不知道在幹嘛，
+依程式碼來看如果if_pc == 32'h00001000時，就assign 0 給 iack 告訴external device，processor沒有在處理中斷的訊號，
+不然就intctl_epc <= intctl_epc，但是我不太清楚pc == 32'h00001000的意義是甚麼，
+還有intctl_epc <= intctl_epc這行指令的用意。

@@ -1,0 +1,281 @@
+C:/MIPS_cpu_01/mul_decode.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/mul_decode.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module mul_decode
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/mul_decode.v(50): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_reg2_ne.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_reg2_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_reg2_ne
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_reg2_ne.v(40): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_top.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_top.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_top
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_top.v(139): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/mul_fsm.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/mul_fsm.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module mul_fsm
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/mul_fsm.v(59): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_reg8x4_ne.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_reg8x4_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_reg8x4_ne
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_reg8x4_ne.v(72): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_reg4_ne.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_reg4_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_reg4_ne
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_reg4_ne.v(39): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/Cache_Ram.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/Cache_Ram.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module Cache_Ram
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/Cache_Ram.v(57): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/I_Cache.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/I_Cache.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module I_Cache
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/I_Cache.v(148): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/fu_alu.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/fu_alu.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module fu_alu
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/fu_alu.v(186): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_reg32_ne.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_reg32_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_reg32_ne
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_reg32_ne.v(58): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/boot_state.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/boot_state.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module boot_state
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/boot_state.v(87): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/branch_unit.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/branch_unit.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module branch_unit
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/branch_unit.v(67): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/mul_reg1_ne.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/mul_reg1_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module mul_reg1_ne
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/mul_reg1_ne.v(39): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/timescale.v {1 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/timescale.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+
+} {} {}} C:/MIPS_cpu_01/cpu_reg8_ne.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_reg8_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_reg8_ne
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_reg8_ne.v(39): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_wb.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_wb.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_wb
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_wb.v(121): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/control_unit.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/control_unit.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module control_unit
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/control_unit.v(666): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_core.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_core.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_core
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_core.v(527): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_decode5to32.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_decode5to32.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_decode5to32
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_decode5to32.v(69): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_reg1_ne.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_reg1_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_reg1_ne
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_reg1_ne.v(40): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/memory.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/memory.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module memory
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/memory.v(162): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/fu_csa8.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/fu_csa8.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module fu_csa8
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/fu_csa8.v(62): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_regbank.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_regbank.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_regbank
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_regbank.v(436): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/fu_shifter_mask.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/fu_shifter_mask.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module fu_shifter_mask
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/fu_shifter_mask.v(69): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_reg3_ne.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_reg3_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_reg3_ne
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_reg3_ne.v(40): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/fu_cla4v.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/fu_cla4v.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module fu_cla4v
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/fu_cla4v.v(62): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/forward_unit.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/forward_unit.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module forward_unit
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/forward_unit.v(92): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_reg5_ne.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_reg5_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_reg5_ne
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_reg5_ne.v(40): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_ex.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_ex.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_ex
+** Error: C:/MIPS_cpu_01/cpu_ex.v(170): 'm_memwrite' already declared in this scope (cpu_ex).
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_ex.v(528): Verilog Compiler exiting
+
+} {4.0 7.0} {}} C:/MIPS_cpu_01/cpu_id.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_id.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_id
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_id.v(807): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/hazard_det_unit.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/hazard_det_unit.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module hazard_det_unit
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/hazard_det_unit.v(116): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_reg8x4_ne_cp.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_reg8x4_ne_cp.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_reg8x4_ne_cp
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_reg8x4_ne_cp.v(77): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/fu_csa32.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/fu_csa32.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module fu_csa32
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/fu_csa32.v(68): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/fu_csa16v.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/fu_csa16v.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module fu_csa16v
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/fu_csa16v.v(68): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/fu_cla4.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/fu_cla4.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module fu_cla4
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/fu_cla4.v(58): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_wb_alignment.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_wb_alignment.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_wb_alignment
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_wb_alignment.v(299): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_if.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_if.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_if
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_if.v(174): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_mem.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_mem.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_mem
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_mem.v(428): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/I_Cache_Controller.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/I_Cache_Controller.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module I_Cache_Controller
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/I_Cache_Controller.v(111): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/fu_shifter.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/fu_shifter.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module fu_shifter
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/fu_shifter.v(173): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/fu_csa8v.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/fu_csa8v.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module fu_csa8v
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/fu_csa8v.v(68): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/testbench.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/testbench.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module memory
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: memory.v(162): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/mul_top.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/mul_top.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module mul_top
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/mul_top.v(624): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/interrupt_controller.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/interrupt_controller.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module interrupt_controller
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/interrupt_controller.v(72): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/fu_csa34.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/fu_csa34.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module fu_csa34
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/fu_csa34.v(62): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/fu_csa16.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/fu_csa16.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module fu_csa16
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/fu_csa16.v(62): Verilog Compiler exiting
+
+} {4.0 6.0} {}} C:/MIPS_cpu_01/cpu_reg32_ne_ex.v {0 {vlog -work work -vopt -nocovercells C:/MIPS_cpu_01/cpu_reg32_ne_ex.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cpu_reg32_ne_ex
+** Error: (vlog-42) Unsupported ModelSim library format for "C:\MIPS_cpu_01\work". (Format: 4)
+** Error: C:/MIPS_cpu_01/cpu_reg32_ne_ex.v(34): Verilog Compiler exiting
+
+} {4.0 6.0} {}}
